@@ -138,6 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3054566516119258676}
+  - component: {fileID: 3825093721460376545}
   m_Layer: 0
   m_Name: Swarm08
   m_TagString: Untagged
@@ -162,6 +163,27 @@ Transform:
   - {fileID: 8423496399229585830}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3825093721460376545
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391359435489877134}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c9b76ad37caa4a3aaeecb9a10f8ae126, type: 3}
+  m_Controller: {fileID: 9100000, guid: a43e1450746c61247ac709a2a93b2da0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2594355968516817363
 GameObject:
   m_ObjectHideFlags: 0
