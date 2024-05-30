@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: TestWork
+  companyName: Default
+  productName: TestWorkNoLight
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -161,7 +161,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.TestWork
+    Android: com.Default.TestWorkNoLight
+    Standalone: com.Default.TestWork
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -825,7 +826,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -845,11 +852,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: d1500523-f7ff-4cea-af42-10dc5fc4da61
+  cloudProjectId: bd2f135b-0976-4445-90b8-a5f5393edefb
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Test
-  organizationId: as2010alisa
+  projectName: TestWork
+  organizationId: mikhailmorozmail
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
