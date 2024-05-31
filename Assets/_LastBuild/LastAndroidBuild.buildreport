@@ -1,36 +1,442 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-8755854686973582709
+--- !u!114 &-8755759479682096307
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13803, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRequirements:
+    minSdkVersion: 22
+    glesMinVersion: 196608
+    openGLRequireES31AEP: 0
+    vulkanMinVersion: 4194304
+    targetArchitectures: 1
+    requiresSystemPartitionInstallation: 0
+  outputPath: D:/Downloads/TestBuildDev1.apk
+  buildOptions: 524297
+  buildApkPerCpuArchitecture: 0
+  buildAppBundle: 0
+  splitMode: 0
+  targetArchitectures: 1
+  versionCode: 1
+  packageName: com.Default.TestWork
+  safeProductName: TestWork
+  activityWithIntent: com.unity3d.player.UnityPlayerActivity
+  stagingArea: Temp/StagingArea
+  patchPackage: 0
+--- !u!641289076 &-7799735326838723777
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!382020655 &-3851134894148307771
-PluginBuildInfo:
-  m_RuntimePlugins:
-  - Unity.Burst.Unsafe
-  - Unity.VisualScripting.Antlr3.Runtime
-  - nunit.framework
-  m_EditorPlugins:
-  - Unity.Plastic.Newtonsoft.Json
-  - Unity.Plastic.Antlr3.Runtime
-  - Unity.VisualScripting.YamlDotNet
-  - Unity.Burst.Cecil.Mdb
-  - Unity.VisualScripting.TextureAssets
-  - zlib64Plastic
-  - Unity.VisualScripting.IonicZip
-  - liblz4Plastic
-  - JetBrains.Rider.PathLocator
-  - unityplastic
-  - Unity.Burst.Cecil.Pdb
-  - Unity.Burst.Cecil
-  - log4netPlastic
-  - Unity.Burst.Cecil.Rocks
-  - lz4x64Plastic
-  - Unity.VisualScripting.sqlite3
-  - ReportGeneratorMerged
-  - AppleEventIntegration
---- !u!1126 &-3673316485382681507
+--- !u!1126 &-7549284017824738495
+PackedAssets:
+  m_ShortPath: resources.assets.resS
+  m_Overhead: 61
+  m_Contents:
+  - fileID: 0
+    classID: 28
+    packedSize: 5460
+    offset: 0
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 0
+    classID: 28
+    packedSize: 3
+    offset: 5472
+    sourceAssetGUID: 127279d577f25ac4ea17dae3782e5074
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+  - fileID: 0
+    classID: 28
+    packedSize: 1936
+    offset: 5488
+    sourceAssetGUID: 22ccd964427c9504d86b684f95542950
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconTwitter.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 7424
+    sourceAssetGUID: 31fe8245f609dbe449606eeb22eceea4
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Performance_Info.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 8256
+    sourceAssetGUID: 6552be13f9333b440ab2f70db54f4bcd
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Error_Icon.png
+  - fileID: 0
+    classID: 28
+    packedSize: 484
+    offset: 9088
+    sourceAssetGUID: 7a0568d5e3330b84687e307992be3030
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
+  - fileID: 0
+    classID: 28
+    packedSize: 1936
+    offset: 9584
+    sourceAssetGUID: 86dcb7ad296bf7a4c92042ff5ff2899d
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconDiscord.png
+  - fileID: 0
+    classID: 28
+    packedSize: 30272
+    offset: 11520
+    sourceAssetGUID: 8ac7bb233e24a7d44b1e5c093c7a9973
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/VRWTSplashLogo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 41792
+    sourceAssetGUID: 9716735332b04a3459d8446f7b8dd369
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Warning_Icon.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 42624
+    sourceAssetGUID: a3de8bd254d420d4c8d381013287bdc9
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Performance_Tips.png
+  - fileID: 0
+    classID: 28
+    packedSize: 484
+    offset: 43456
+    sourceAssetGUID: a674720496c1ed248a5b7ea3e22a11fd
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
+  - fileID: 0
+    classID: 28
+    packedSize: 484
+    offset: 43952
+    sourceAssetGUID: b346b2a2df1d290438be3287b6419408
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 44448
+    sourceAssetGUID: ba2fba4f6e6b52641b65057aae7d8c91
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Good_FPS_Icon.png
+  - fileID: 0
+    classID: 28
+    packedSize: 832
+    offset: 45280
+    sourceAssetGUID: cf3514a8266576c44bdb115f3e90ad2d
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Bad_FPS_Icon.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 46112
+    sourceAssetGUID: d49e78756811bfa4aafb8b6535417991
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
+  - fileID: 0
+    classID: 28
+    packedSize: 158432
+    offset: 46368
+    sourceAssetGUID: dffef66376be4fa480fb02b19edbe903
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Sprites/EmojiOne.png
+  - fileID: 0
+    classID: 28
+    packedSize: 1936
+    offset: 204800
+    sourceAssetGUID: ee7466bdf89c818418a3324760b635bd
+    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconGithub.png
+--- !u!1126 &-6373126271473226188
+PackedAssets:
+  m_ShortPath: globalgamemanagers.assets.resS
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 28
+    packedSize: 1250704
+    offset: 0
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in Texture2D: Splash Screen Unity Logo'
+  - fileID: 0
+    classID: 28
+    packedSize: 2048
+    offset: 1250704
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1252752
+    sourceAssetGUID: 071e954febf155243a6c81e48f452644
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 1253008
+    sourceAssetGUID: 1097e90e1306e26439701489f391a6c0
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium01.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1515152
+    sourceAssetGUID: 10b6c6d22e73dea46a8ab36b6eebd629
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1515408
+    sourceAssetGUID: 1134690bf9216164dbc75050e35b7900
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1515664
+    sourceAssetGUID: 14381521ff11cb74abe3fe65401c23be
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1515920
+    sourceAssetGUID: 179f794063d2a66478e6e726f84a65bc
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1516176
+    sourceAssetGUID: 1c3c6d69a645b804fa232004b96b7ad3
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1516432
+    sourceAssetGUID: 2ca97df9d1801e84a8a8f2c53cb744f0
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1516688
+    sourceAssetGUID: 39451254daebd6d40b52899c1f1c0c1b
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1516944
+    sourceAssetGUID: 47a45908f6db0cb44a0d5e961143afec
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 1517200
+    sourceAssetGUID: 4dcc0502f8586f941b5c4a66717205e8
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 1517456
+    sourceAssetGUID: 510a2f57334933e4a8dbabe4c30204e4
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium05.png
+  - fileID: 0
+    classID: 28
+    packedSize: 1024
+    offset: 1779600
+    sourceAssetGUID: 51eee22c2a633ef4aada830eed57c3fd
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/SMAA/SearchTex.tga
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 1780624
+    sourceAssetGUID: 5cdee82a77d13994f83b8fdabed7c301
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large02.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 2042768
+    sourceAssetGUID: 654c582f7f8a5a14dbd7d119cbde215d
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2304912
+    sourceAssetGUID: 7ce2118f74614a94aa8a0cdf2e6062c3
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2305168
+    sourceAssetGUID: 81200413a40918d4d8702e94db29911c
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2305424
+    sourceAssetGUID: 896d9004736809c4fb5973b7c12eb8b9
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2305680
+    sourceAssetGUID: 96aaab9cc247d0b4c98132159688c1af
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 2305936
+    sourceAssetGUID: 9930fb4528622b34687b00bbe6883de7
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium03.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2568080
+    sourceAssetGUID: 9d92991794bb5864c8085468b97aa067
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 2568336
+    sourceAssetGUID: a2ec5cbf5a9b64345ad3fab0912ddf7b
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 2568592
+    sourceAssetGUID: b4db8180660810945bf8d55ab44352ad
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium06.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 2830736
+    sourceAssetGUID: bd9e8c758250ef449a4b4bfaad7a2133
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium04.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3092880
+    sourceAssetGUID: bfed3e498947fcb4890b7f40f54d85b9
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3093136
+    sourceAssetGUID: c94ad916058dff743b0f1c969ddbe660
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3093392
+    sourceAssetGUID: c989e1ed85cf7154caa922fec53e6af6
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3093648
+    sourceAssetGUID: c9bd74624d8070f429e3f46d161f9204
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3093904
+    sourceAssetGUID: d18a24d7b4ed50f4387993566d9d3ae2
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png
+  - fileID: 0
+    classID: 28
+    packedSize: 224256
+    offset: 3094160
+    sourceAssetGUID: d1f1048909d55cd4fa1126ab998f617e
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3318416
+    sourceAssetGUID: d36f0fe53425e08499a2333cf423634c
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3318672
+    sourceAssetGUID: d4044ea2490d63b43aa1765f8efbf8a9
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3318928
+    sourceAssetGUID: d50c5e07c9911a74982bddf7f3075e7b
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3319184
+    sourceAssetGUID: d512512f4af60a442ab3458489412954
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3319440
+    sourceAssetGUID: d5c9b274310e5524ebe32a4e4da3df1f
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 3319696
+    sourceAssetGUID: dd77ffd079630404e879388999033049
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png
+  - fileID: 0
+    classID: 28
+    packedSize: 4096
+    offset: 3581840
+    sourceAssetGUID: e3d24661c1e055f45a7560c033dbb837
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3585936
+    sourceAssetGUID: e63eef8f54aa9dc4da9a5ac094b503b5
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3586192
+    sourceAssetGUID: ed5ea7ce59ca8ec4f9f14bf470a30f35
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 3586448
+    sourceAssetGUID: f0b67500f7fad3b4c9f2b13e8f41ba6e
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium02.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3848592
+    sourceAssetGUID: f69770e54f2823f43badf77916acad83
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png
+  - fileID: 0
+    classID: 28
+    packedSize: 16
+    offset: 3848848
+    sourceAssetGUID: f9ee4ed84c1d10c49aabb9b210b0fc44
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3848864
+    sourceAssetGUID: fa042edbfc40fbd4bad0ab9d505b1223
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 3849120
+    sourceAssetGUID: fc3fa8f108657e14486697c9a84ccfc5
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png
+  - fileID: 0
+    classID: 28
+    packedSize: 262144
+    offset: 3849376
+    sourceAssetGUID: fd2fd78b392986e42a12df2177d3b89c
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large01.png
+  - fileID: 0
+    classID: 28
+    packedSize: 256
+    offset: 4111520
+    sourceAssetGUID: ff47e5a0f105eb34883b973e51f4db62
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png
+--- !u!1126 &-4243247132480588870
 PackedAssets:
   m_ShortPath: globalgamemanagers.assets
   m_Overhead: 40383
@@ -9509,330 +9915,6 @@ PackedAssets:
     offset: 1560696
     sourceAssetGUID: 60e1133243b97e347b653163a8c01b64
     buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset
---- !u!1126 &-3235214762251312506
-PackedAssets:
-  m_ShortPath: globalgamemanagers.assets.resS
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 28
-    packedSize: 1250704
-    offset: 0
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Texture2D: Splash Screen Unity Logo'
-  - fileID: 0
-    classID: 28
-    packedSize: 2048
-    offset: 1250704
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1252752
-    sourceAssetGUID: 071e954febf155243a6c81e48f452644
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_9.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 1253008
-    sourceAssetGUID: 1097e90e1306e26439701489f391a6c0
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium01.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1515152
-    sourceAssetGUID: 10b6c6d22e73dea46a8ab36b6eebd629
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_23.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1515408
-    sourceAssetGUID: 1134690bf9216164dbc75050e35b7900
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_2.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1515664
-    sourceAssetGUID: 14381521ff11cb74abe3fe65401c23be
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_17.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1515920
-    sourceAssetGUID: 179f794063d2a66478e6e726f84a65bc
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_31.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1516176
-    sourceAssetGUID: 1c3c6d69a645b804fa232004b96b7ad3
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_25.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1516432
-    sourceAssetGUID: 2ca97df9d1801e84a8a8f2c53cb744f0
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_4.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1516688
-    sourceAssetGUID: 39451254daebd6d40b52899c1f1c0c1b
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_6.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1516944
-    sourceAssetGUID: 47a45908f6db0cb44a0d5e961143afec
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_14.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 1517200
-    sourceAssetGUID: 4dcc0502f8586f941b5c4a66717205e8
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_15.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 1517456
-    sourceAssetGUID: 510a2f57334933e4a8dbabe4c30204e4
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium05.png
-  - fileID: 0
-    classID: 28
-    packedSize: 1024
-    offset: 1779600
-    sourceAssetGUID: 51eee22c2a633ef4aada830eed57c3fd
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/SMAA/SearchTex.tga
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 1780624
-    sourceAssetGUID: 5cdee82a77d13994f83b8fdabed7c301
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large02.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 2042768
-    sourceAssetGUID: 654c582f7f8a5a14dbd7d119cbde215d
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2304912
-    sourceAssetGUID: 7ce2118f74614a94aa8a0cdf2e6062c3
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_3.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2305168
-    sourceAssetGUID: 81200413a40918d4d8702e94db29911c
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_0.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2305424
-    sourceAssetGUID: 896d9004736809c4fb5973b7c12eb8b9
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_30.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2305680
-    sourceAssetGUID: 96aaab9cc247d0b4c98132159688c1af
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_10.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 2305936
-    sourceAssetGUID: 9930fb4528622b34687b00bbe6883de7
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium03.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2568080
-    sourceAssetGUID: 9d92991794bb5864c8085468b97aa067
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_16.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 2568336
-    sourceAssetGUID: a2ec5cbf5a9b64345ad3fab0912ddf7b
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_24.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 2568592
-    sourceAssetGUID: b4db8180660810945bf8d55ab44352ad
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium06.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 2830736
-    sourceAssetGUID: bd9e8c758250ef449a4b4bfaad7a2133
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium04.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3092880
-    sourceAssetGUID: bfed3e498947fcb4890b7f40f54d85b9
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3093136
-    sourceAssetGUID: c94ad916058dff743b0f1c969ddbe660
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_7.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3093392
-    sourceAssetGUID: c989e1ed85cf7154caa922fec53e6af6
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_27.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3093648
-    sourceAssetGUID: c9bd74624d8070f429e3f46d161f9204
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_20.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3093904
-    sourceAssetGUID: d18a24d7b4ed50f4387993566d9d3ae2
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_26.png
-  - fileID: 0
-    classID: 28
-    packedSize: 224256
-    offset: 3094160
-    sourceAssetGUID: d1f1048909d55cd4fa1126ab998f617e
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3318416
-    sourceAssetGUID: d36f0fe53425e08499a2333cf423634c
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_18.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3318672
-    sourceAssetGUID: d4044ea2490d63b43aa1765f8efbf8a9
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_19.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3318928
-    sourceAssetGUID: d50c5e07c9911a74982bddf7f3075e7b
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_1.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3319184
-    sourceAssetGUID: d512512f4af60a442ab3458489412954
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_13.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3319440
-    sourceAssetGUID: d5c9b274310e5524ebe32a4e4da3df1f
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_21.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 3319696
-    sourceAssetGUID: dd77ffd079630404e879388999033049
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png
-  - fileID: 0
-    classID: 28
-    packedSize: 4096
-    offset: 3581840
-    sourceAssetGUID: e3d24661c1e055f45a7560c033dbb837
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L/LDR_LLL1_0.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3585936
-    sourceAssetGUID: e63eef8f54aa9dc4da9a5ac094b503b5
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_5.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3586192
-    sourceAssetGUID: ed5ea7ce59ca8ec4f9f14bf470a30f35
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_8.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 3586448
-    sourceAssetGUID: f0b67500f7fad3b4c9f2b13e8f41ba6e
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Medium02.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3848592
-    sourceAssetGUID: f69770e54f2823f43badf77916acad83
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_22.png
-  - fileID: 0
-    classID: 28
-    packedSize: 16
-    offset: 3848848
-    sourceAssetGUID: f9ee4ed84c1d10c49aabb9b210b0fc44
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BayerMatrix.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3848864
-    sourceAssetGUID: fa042edbfc40fbd4bad0ab9d505b1223
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_29.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 3849120
-    sourceAssetGUID: fc3fa8f108657e14486697c9a84ccfc5
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_11.png
-  - fileID: 0
-    classID: 28
-    packedSize: 262144
-    offset: 3849376
-    sourceAssetGUID: fd2fd78b392986e42a12df2177d3b89c
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Large01.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 4111520
-    sourceAssetGUID: ff47e5a0f105eb34883b973e51f4db62
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_28.png
---- !u!114 &-354335126579413694
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13803, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRequirements:
-    minSdkVersion: 22
-    glesMinVersion: 196608
-    openGLRequireES31AEP: 0
-    vulkanMinVersion: 4194304
-    targetArchitectures: 1
-    requiresSystemPartitionInstallation: 0
-  outputPath: D:/Downloads/TestBuildDev4.apk
-  buildOptions: 524297
-  buildApkPerCpuArchitecture: 0
-  buildAppBundle: 0
-  splitMode: 0
-  targetArchitectures: 1
-  versionCode: 1
-  packageName: com.Default.TestWork
-  safeProductName: TestWork
-  activityWithIntent: com.unity3d.player.UnityPlayerActivity
-  stagingArea: Temp/StagingArea
-  patchPackage: 0
 --- !u!1125 &1
 BuildReport:
   m_ObjectHideFlags: 0
@@ -9843,26 +9925,26 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 638526956239803308
-    buildGUID: 0385539d81b245309b2142996988c7f6
+      ticks: 638527389459406009
+    buildGUID: ec2551a3dead4dc0bec6ea6913e7859f
     platformName: Android
     platformGroupName: Android
     subtarget: 0
     options: 524297
     assetBundleOptions: 0
-    outputPath: D:/Downloads/TestBuildDev4.apk
+    outputPath: D:/Downloads/TestBuildDev1.apk
     crc: 0
-    totalSize: 173160674
-    totalTimeTicks: 220817273
-    totalErrors: 0
-    totalWarnings: 5
+    totalSize: 171082757
+    totalTimeTicks: 441252166
+    totalErrors: 2
+    totalWarnings: 4
     buildType: 1
     buildResult: 1
   m_Files:
   - path: D:/Game projects/TestWork/Test/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
     role: unity3d
     id: 0
-    totalSize: 18275241
+    totalSize: 16197324
   - path: D:/Game projects/TestWork/Test/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json
     role: json
     id: 1
@@ -10752,87 +10834,91 @@ BuildReport:
     role: build_fingerprint
     id: 222
     totalSize: 70
-  - path: D:/Downloads/TestBuildDev4.apk
+  - path: D:/Downloads/TestBuildDev1.apk
     role: APK
     id: 223
     totalSize: 62077715
   m_BuildSteps:
   - stepName: Build player
-    durationTicks: 220817273
+    durationTicks: 441252166
     depth: 0
-    messages: []
+    messages:
+    - type: 4
+      content: 'IndexOutOfRangeException: Index was outside the bounds of the array.'
+    - type: 4
+      content: 'IndexOutOfRangeException: Index was outside the bounds of the array.'
   - stepName: Preprocess Player
-    durationTicks: 353966
+    durationTicks: 188603
     depth: 1
     messages: []
   - stepName: Prepare For Build
-    durationTicks: 43436008
+    durationTicks: 136634
     depth: 1
     messages: []
   - stepName: ProducePlayerScriptAssemblies
-    durationTicks: 9940123
+    durationTicks: 10156543
     depth: 1
     messages: []
   - stepName: Prebuild Cleanup and Recompile
-    durationTicks: 5459485
+    durationTicks: 4890101
     depth: 2
     messages: []
   - stepName: Compile scripts
-    durationTicks: 4825761
+    durationTicks: 4435322
     depth: 3
     messages: []
   - stepName: Generate and validate platform script types
-    durationTicks: 343086
+    durationTicks: 266440
     depth: 3
     messages: []
   - stepName: Verify Build setup
-    durationTicks: 1062989
+    durationTicks: 4973075
     depth: 1
     messages: []
   - stepName: Check old data build
-    durationTicks: 660324
+    durationTicks: 4587347
     depth: 2
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 1370198
+    durationTicks: 2786636
     depth: 1
     messages: []
   - stepName: Prepare splash screen
-    durationTicks: 9477
+    durationTicks: 4682809
     depth: 1
     messages:
     - type: 3
       content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
   - stepName: Building scenes
-    durationTicks: 13184844
+    durationTicks: 17011908
     depth: 1
     messages: []
   - stepName: Building scene Assets/Scenes/SampleScene.unity
-    durationTicks: 13184623
+    durationTicks: 17011107
     depth: 2
     messages: []
   - stepName: Build scripts DLLs
-    durationTicks: 17553258
+    durationTicks: 18219135
     depth: 1
     messages: []
   - stepName: GetReferencedAssemblies
-    durationTicks: 17166966
+    durationTicks: 17138269
     depth: 2
     messages: []
   - stepName: Build GlobalGameManagers file
-    durationTicks: 1663800
+    durationTicks: 9009523
     depth: 1
     messages: []
   - stepName: Writing asset files
-    durationTicks: 16522182
+    durationTicks: 24704304
     depth: 1
     messages: []
   - stepName: Packaging assets - globalgamemanagers.assets
-    durationTicks: 6742695
+    durationTicks: 13563907
     depth: 2
     messages: []
   - stepName: Packaging assets - resources.assets
-    durationTicks: 3905069
+    durationTicks: 3390258
     depth: 2
     messages:
     - type: 2
@@ -10849,1713 +10935,145 @@ BuildReport:
         script is attached.
   - stepName: 'Packaging assets - sharedassets0.assets = additional assets for scene
       0: Assets/Scenes/SampleScene.unity'
-    durationTicks: 5544558
+    durationTicks: 7432663
     depth: 2
-    messages:
-    - type: 2
-      content: 'Asset ''Warrior'': Transition ''AnyState -> Idle Warrior'' in state
-        ''AnyState'' doesn''t have an Exit Time or any condition, transition will
-        be ignored'
+    messages: []
   - stepName: Building Resources/unity_builtin_extra
-    durationTicks: 2204538
+    durationTicks: 15030875
     depth: 1
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 30686590
+    durationTicks: 29638267
     depth: 1
     messages: []
   - stepName: Write data build dirty tracking information
-    durationTicks: 4152693
+    durationTicks: 3788493
     depth: 1
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 65741682
+    durationTicks: 287537992
     depth: 1
     messages: []
   - stepName: Initializing
-    durationTicks: 7765
+    durationTicks: 7340
     depth: 2
     messages: []
   - stepName: Check gradle project collisions
-    durationTicks: 3988
+    durationTicks: 3946
     depth: 2
     messages: []
   - stepName: Preparing banner
-    durationTicks: 5337
+    durationTicks: 5386
     depth: 2
     messages: []
   - stepName: Setup incremental player build
-    durationTicks: 1030034
+    durationTicks: 1400883
     depth: 2
     messages: []
   - stepName: Incremental player build
-    durationTicks: 6100227
+    durationTicks: 6394770
     depth: 2
     messages: []
   - stepName: Report output files
-    durationTicks: 638873
+    durationTicks: 675013
     depth: 2
     messages: []
   - stepName: Calling IPostGenerateGradleAndroidProject callbacks
-    durationTicks: 25147
+    durationTicks: 24081
     depth: 2
     messages: []
   - stepName: Cloud Diagnostics Symbol Upload
-    durationTicks: 3937
+    durationTicks: 3812
     depth: 2
     messages: []
   - stepName: Building Gradle project
-    durationTicks: 53624099
+    durationTicks: 271132834
     depth: 2
     messages: []
   - stepName: Processing Mapping File
-    durationTicks: 4632
+    durationTicks: 4773
     depth: 2
     messages: []
   - stepName: Moving output package(s)
-    durationTicks: 740038
+    durationTicks: 392066
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: -3673316485382681507}
-  - {fileID: 9173920386203853585}
-  - {fileID: 98589003024012898}
-  - {fileID: -3235214762251312506}
-  - {fileID: 1189245978518092767}
-  - {fileID: 6796586222115668881}
-  - {fileID: 8060715705442153691}
-  - {fileID: -354335126579413694}
-  - {fileID: -3851134894148307771}
-  - {fileID: -8755854686973582709}
-  - {fileID: 8916924469639342400}
---- !u!1126 &98589003024012898
-PackedAssets:
-  m_ShortPath: sharedassets0.assets
-  m_Overhead: 5557
-  m_Contents:
-  - fileID: 1
-    classID: 150
-    packedSize: 229
-    offset: 5184
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 2
-    classID: 21
-    packedSize: 1608
-    offset: 5416
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 3
-    classID: 21
-    packedSize: 268
-    offset: 7024
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 4
-    classID: 21
-    packedSize: 1612
-    offset: 7296
-    sourceAssetGUID: 3f24feb076cc769428ae9d947fcf8e44
-    buildTimeAssetPath: Assets/Characters/Elf/Material/Cloth.mat
-  - fileID: 5
-    classID: 21
-    packedSize: 1616
-    offset: 8912
-    sourceAssetGUID: 132cd3d4b4119dd45b843df2eaa083c2
-    buildTimeAssetPath: Assets/Characters/Elf/Material/New Material.mat
-  - fileID: 6
-    classID: 21
-    packedSize: 1648
-    offset: 10528
-    sourceAssetGUID: 984bce432f27eec45886623bba2c741e
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Material/PA_Default.mat
-  - fileID: 7
-    classID: 21
-    packedSize: 1604
-    offset: 12176
-    sourceAssetGUID: fade5155655f1bc4c9a6873632f804c9
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_armor.mat
-  - fileID: 8
-    classID: 21
-    packedSize: 1716
-    offset: 13784
-    sourceAssetGUID: dd7f197e6505c8e49aebf5da77824222
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_body.mat
-  - fileID: 9
-    classID: 21
-    packedSize: 1604
-    offset: 15504
-    sourceAssetGUID: d7fd6a947d9cb1b46a49860f75d2e60b
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_clothes.mat
-  - fileID: 10
-    classID: 21
-    packedSize: 2484
-    offset: 17112
-    sourceAssetGUID: 8279b5291ce920a48b9dbe640562772e
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_hair.mat
-  - fileID: 11
-    classID: 21
-    packedSize: 1648
-    offset: 19600
-    sourceAssetGUID: 2029a5a2a27b8484bb3e2562d8bbdfa3
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_000.mat
-  - fileID: 12
-    classID: 21
-    packedSize: 1676
-    offset: 21248
-    sourceAssetGUID: 09c0c3f8df5925948ae159e03bf40def
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_004.mat
-  - fileID: 13
-    classID: 21
-    packedSize: 1648
-    offset: 22928
-    sourceAssetGUID: 4473d3aa8f385654795f98b674c20462
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_007.mat
-  - fileID: 14
-    classID: 21
-    packedSize: 1676
-    offset: 24576
-    sourceAssetGUID: 991fe0467bc27354f88af9913757671c
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C08.mat
-  - fileID: 15
-    classID: 21
-    packedSize: 1676
-    offset: 26256
-    sourceAssetGUID: 2cea64b40f3a51441b57b84f34a9f545
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C12.mat
-  - fileID: 16
-    classID: 21
-    packedSize: 1676
-    offset: 27936
-    sourceAssetGUID: cf0ad78c86cc460428011455a47b6ef7
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C18.mat
-  - fileID: 17
-    classID: 21
-    packedSize: 1676
-    offset: 29616
-    sourceAssetGUID: 00b9f82776e13e744bbad95a44a4371b
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_D10.mat
-  - fileID: 18
-    classID: 21
-    packedSize: 1648
-    offset: 31296
-    sourceAssetGUID: 39e898393456ee64c94b931509d0b6bd
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/_LightGray_.mat
-  - fileID: 19
-    classID: 21
-    packedSize: 1588
-    offset: 32944
-    sourceAssetGUID: e34997156649c524d8f2adec1e33ca44
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Models/Materials/BackColor.001.mat
-  - fileID: 20
-    classID: 21
-    packedSize: 1680
-    offset: 34536
-    sourceAssetGUID: 8444303dee6f21e4c943696eae671249
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Bakery
-      matket.mat
-  - fileID: 21
-    classID: 21
-    packedSize: 1704
-    offset: 36216
-    sourceAssetGUID: a291be32ec43ce64d8c49e74fe31d82d
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Environment.mat
-  - fileID: 22
-    classID: 21
-    packedSize: 1688
-    offset: 37920
-    sourceAssetGUID: 8e153a51647cf7f4cb57852c1a31d47d
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Laterns.mat
-  - fileID: 23
-    classID: 21
-    packedSize: 1680
-    offset: 39608
-    sourceAssetGUID: 12f7312dd149c3b4a92b4216a8ae4800
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Weapon
-      market.mat
-  - fileID: 24
-    classID: 21
-    packedSize: 1652
-    offset: 41288
-    sourceAssetGUID: ff12f95fea14be547980dcb3befc07d5
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat
-  - fileID: 25
-    classID: 21
-    packedSize: 1752
-    offset: 42944
-    sourceAssetGUID: 2a12d3fc0532ba64e972160db18dfd99
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat
-  - fileID: 26
-    classID: 21
-    packedSize: 1656
-    offset: 44696
-    sourceAssetGUID: 6f738c9e4b1ec0c488fe9ad860e8df87
-    buildTimeAssetPath: Assets/Materials/MM_SimpleMaterial.mat
-  - fileID: 27
-    classID: 21
-    packedSize: 568
-    offset: 46352
-    sourceAssetGUID: f3053f8556ff7cf4fb59de5cf109104e
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Circle.mat
-  - fileID: 28
-    classID: 21
-    packedSize: 800
-    offset: 46920
-    sourceAssetGUID: 417cbbf4755e392408e489080c4ede09
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Default_01.mat
-  - fileID: 29
-    classID: 21
-    packedSize: 604
-    offset: 47720
-    sourceAssetGUID: 2372c82814ea2ed41aed3d611d81953d
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Sparkle.mat
-  - fileID: 30
-    classID: 21
-    packedSize: 648
-    offset: 48328
-    sourceAssetGUID: 285b0791008c39844936e10062f85a3c
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat
-  - fileID: 31
-    classID: 21
-    packedSize: 1724
-    offset: 48976
-    sourceAssetGUID: 31321ba15b8f8eb4c954353edc038b1d
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
-  - fileID: 32
-    classID: 21
-    packedSize: 148
-    offset: 50704
-    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 33
-    classID: 21
-    packedSize: 2016
-    offset: 50856
-    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF - Fallback.asset
-  - fileID: 34
-    classID: 21
-    packedSize: 956
-    offset: 52872
-    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF.asset
-  - fileID: 35
-    classID: 21
-    packedSize: 1584
-    offset: 53832
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 36
-    classID: 28
-    packedSize: 164
-    offset: 55416
-    sourceAssetGUID: 041f25101742fb046b44726e3fcf004f
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_dir.png
-  - fileID: 37
-    classID: 28
-    packedSize: 164
-    offset: 55584
-    sourceAssetGUID: 065b9c959e26bce47b4446687823d61f
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_albedo.png
-  - fileID: 38
-    classID: 28
-    packedSize: 168
-    offset: 55752
-    sourceAssetGUID: 07775286b12d6d149b685d660e52147d
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
-  - fileID: 39
-    classID: 28
-    packedSize: 168
-    offset: 55920
-    sourceAssetGUID: 0f16a97fe2f07c54f92596201e4273ec
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_metallic.png
-  - fileID: 40
-    classID: 28
-    packedSize: 160
-    offset: 56088
-    sourceAssetGUID: 16adfabf761583f4a9ad5823e0ea8c8e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Weapon
-      market.tif
-  - fileID: 41
-    classID: 28
-    packedSize: 176
-    offset: 56248
-    sourceAssetGUID: 1c8031630249ff8448e393ba84a93c9f
-    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_ClothingM_BaseColor.jpg"
-  - fileID: 42
-    classID: 28
-    packedSize: 164
-    offset: 56424
-    sourceAssetGUID: 2d8c37a80a0dbf442b7b27851bfaa297
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
-  - fileID: 43
-    classID: 28
-    packedSize: 176
-    offset: 56592
-    sourceAssetGUID: 2deb9a997d4c62c4d92210d0f0a9abdd
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png
-  - fileID: 44
-    classID: 28
-    packedSize: 168
-    offset: 56768
-    sourceAssetGUID: 2f6a12d37c7ba4c43a5156d61ecf74fd
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
-  - fileID: 45
-    classID: 28
-    packedSize: 152
-    offset: 56936
-    sourceAssetGUID: 2fc5fd69f2ef4c3aa4393a24c3fdd596
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Texture/DefaultPBR/Albedo.png
-  - fileID: 46
-    classID: 28
-    packedSize: 168
-    offset: 57088
-    sourceAssetGUID: 3ccce67bd48bfcd459a2ef0393fdf83e
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Sparkle.png
-  - fileID: 47
-    classID: 28
-    packedSize: 164
-    offset: 57256
-    sourceAssetGUID: 416c6e4fad0461b4db708397b878aec3
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_dir.png
-  - fileID: 48
-    classID: 28
-    packedSize: 168
-    offset: 57424
-    sourceAssetGUID: 48dd9a7736c11b5448a74711310e2ee6
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png
-  - fileID: 49
-    classID: 28
-    packedSize: 164
-    offset: 57592
-    sourceAssetGUID: 4b48d75761b65d2499585c30c7f0ee37
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
-  - fileID: 50
-    classID: 28
-    packedSize: 164
-    offset: 57760
-    sourceAssetGUID: 4bbcfd991ffc8e04aae9f9723ec65ae4
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_normal.png
-  - fileID: 51
-    classID: 28
-    packedSize: 168
-    offset: 57928
-    sourceAssetGUID: 56cf0255172e0cc4591ce3126af761f1
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_metallic.png
-  - fileID: 52
-    classID: 28
-    packedSize: 156
-    offset: 58096
-    sourceAssetGUID: 626bf64cb9cd0a6458a86b6fadececa7
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Environment.tif
-  - fileID: 53
-    classID: 28
-    packedSize: 172
-    offset: 58256
-    sourceAssetGUID: 7cc0b541520b0734c80ea6934a192675
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Circle_01.png
-  - fileID: 54
-    classID: 28
-    packedSize: 168
-    offset: 58432
-    sourceAssetGUID: 84fd0a2f24b7b184995e7b6d8eecde17
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
-  - fileID: 55
-    classID: 28
-    packedSize: 164
-    offset: 58600
-    sourceAssetGUID: 9d40a8ece69e42042bebd2c0d28b7c34
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_alpha.png
-  - fileID: 56
-    classID: 28
-    packedSize: 168
-    offset: 58768
-    sourceAssetGUID: 9ec7f5987e127b64bbc104ed8e384509
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_light.exr
-  - fileID: 57
-    classID: 28
-    packedSize: 164
-    offset: 58936
-    sourceAssetGUID: a793a0fd046fcaa4fb4c3cd0a962cf69
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
-  - fileID: 58
-    classID: 28
-    packedSize: 168
-    offset: 59104
-    sourceAssetGUID: a9178e4d5631a714f896b8036b565361
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_normal.png
-  - fileID: 59
-    classID: 28
-    packedSize: 160
-    offset: 59272
-    sourceAssetGUID: b05e25f72fc74f5408cdc9c4f1db9384
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/LaternsEmission.tif
-  - fileID: 60
-    classID: 28
-    packedSize: 168
-    offset: 59432
-    sourceAssetGUID: b33cfc4fea0cb2840a7edf71edc7e9b0
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_light.exr
-  - fileID: 61
-    classID: 28
-    packedSize: 172
-    offset: 59600
-    sourceAssetGUID: b3cf63f3fb542f2428b43be7498593ca
-    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_BodyM_BaseColor.jpg"
-  - fileID: 62
-    classID: 28
-    packedSize: 152
-    offset: 59776
-    sourceAssetGUID: c08df9614ce228a45b4c99e0a8dff6ae
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Latens.tif
-  - fileID: 63
-    classID: 28
-    packedSize: 164
-    offset: 59928
-    sourceAssetGUID: c52c7381dcf38a547b392a3ba8ec96e8
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_normal.png
-  - fileID: 64
-    classID: 28
-    packedSize: 168
-    offset: 60096
-    sourceAssetGUID: ca5218861d869e442bcae7aca8629a7b
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif
-  - fileID: 65
-    classID: 28
-    packedSize: 176
-    offset: 60264
-    sourceAssetGUID: d21b0d52ea5f1c84ba2e275be1619ee0
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png
-  - fileID: 66
-    classID: 28
-    packedSize: 168
-    offset: 60440
-    sourceAssetGUID: d8cfadc3e19d2774cbbb3d9f0af4e4fa
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_albedo.png
-  - fileID: 67
-    classID: 28
-    packedSize: 164
-    offset: 60608
-    sourceAssetGUID: db806809cc4e06643af394f9dbb65c6e
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_albedo.png
-  - fileID: 68
-    classID: 28
-    packedSize: 128
-    offset: 60776
-    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 69
-    classID: 28
-    packedSize: 168
-    offset: 60904
-    sourceAssetGUID: fbcaea10385462040a79c4950d5f65ed
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Bakery
-      market texture.tif
-  - fileID: 70
-    classID: 28
-    packedSize: 164
-    offset: 61072
-    sourceAssetGUID: fcb97a98ffba07e46b840b291efe118c
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_albedo.png
-  - fileID: 71
-    classID: 28
-    packedSize: 140
-    offset: 61240
-    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF - Fallback.asset
-  - fileID: 72
-    classID: 28
-    packedSize: 168
-    offset: 61384
-    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF.asset
-  - fileID: 73
-    classID: 43
-    packedSize: 4988
-    offset: 61552
-    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_helmet.fbx
-  - fileID: 74
-    classID: 43
-    packedSize: 12500
-    offset: 66544
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 75
-    classID: 43
-    packedSize: 51684
-    offset: 79048
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 76
-    classID: 43
-    packedSize: 183064
-    offset: 130736
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 77
-    classID: 43
-    packedSize: 18372
-    offset: 313800
-    sourceAssetGUID: 8ab5ed643d71db440a2338820ca4fa91
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/axe.fbx
-  - fileID: 78
-    classID: 43
-    packedSize: 4688
-    offset: 332176
-    sourceAssetGUID: 0beffb5271d8f24449893df9714c08b6
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pastry.fbx
-  - fileID: 79
-    classID: 43
-    packedSize: 21504
-    offset: 336864
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 80
-    classID: 43
-    packedSize: 30920
-    offset: 358368
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 81
-    classID: 43
-    packedSize: 36464
-    offset: 389288
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 82
-    classID: 43
-    packedSize: 1500
-    offset: 425752
-    sourceAssetGUID: 7a124a28803e38547aac4126f9b08bc1
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/cookie.fbx
-  - fileID: 83
-    classID: 43
-    packedSize: 12596
-    offset: 427256
-    sourceAssetGUID: ce34fbf2a59d2854e8d9207554ecb954
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/tree_03.fbx
-  - fileID: 84
-    classID: 43
-    packedSize: 3864
-    offset: 439856
-    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/crossbow.fbx
-  - fileID: 85
-    classID: 43
-    packedSize: 5652
-    offset: 443720
-    sourceAssetGUID: 617568d1c23d5b04cbc73bd5dce482fd
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/trailway_02.fbx
-  - fileID: 86
-    classID: 43
-    packedSize: 7320
-    offset: 449376
-    sourceAssetGUID: 6c1f14ddf621b9b40a5a5f69f90404b5
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/spear.fbx
-  - fileID: 87
-    classID: 43
-    packedSize: 6876
-    offset: 456696
-    sourceAssetGUID: 08c36fd1bcfd64446a57573b7990d6ed
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/blacksmith_hammer.fbx
-  - fileID: 88
-    classID: 43
-    packedSize: 5540
-    offset: 463576
-    sourceAssetGUID: f00cac306a000f245b2ddf0e5f1bb8c2
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/dagger.fbx
-  - fileID: 89
-    classID: 43
-    packedSize: 7480
-    offset: 469120
-    sourceAssetGUID: 50919361b0d329648bfad63c61dc4323
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/short_sword.fbx
-  - fileID: 90
-    classID: 43
-    packedSize: 30832
-    offset: 476600
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 91
-    classID: 43
-    packedSize: 217048
-    offset: 507432
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 92
-    classID: 43
-    packedSize: 36400
-    offset: 724480
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 93
-    classID: 43
-    packedSize: 5164
-    offset: 760880
-    sourceAssetGUID: 0dfb12300f720f84eb3c7e6b6055ad35
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/long_loaf.fbx
-  - fileID: 94
-    classID: 43
-    packedSize: 3272
-    offset: 766048
-    sourceAssetGUID: a74a6d75509166e4f8a37d3d294d3900
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/long_bow.fbx
-  - fileID: 95
-    classID: 43
-    packedSize: 2752
-    offset: 769320
-    sourceAssetGUID: 4fdd31f04f1abfa499e3467943c426fc
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/egg_brown.fbx
-  - fileID: 96
-    classID: 43
-    packedSize: 2752
-    offset: 772072
-    sourceAssetGUID: 92529b3f7b4d2094faf19b093b491f39
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/egg_white.fbx
-  - fileID: 97
-    classID: 43
-    packedSize: 269956
-    offset: 774824
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 98
-    classID: 43
-    packedSize: 97284
-    offset: 1044784
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 99
-    classID: 43
-    packedSize: 38992
-    offset: 1142072
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 100
-    classID: 43
-    packedSize: 1772
-    offset: 1181064
-    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_helmet.fbx
-  - fileID: 101
-    classID: 43
-    packedSize: 976
-    offset: 1182840
-    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/crossbow.fbx
-  - fileID: 102
-    classID: 43
-    packedSize: 36228
-    offset: 1183816
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 103
-    classID: 43
-    packedSize: 17828
-    offset: 1220048
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 104
-    classID: 43
-    packedSize: 3276
-    offset: 1237880
-    sourceAssetGUID: 8d98494cbd2398549998270c4ef05c6d
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/short_bow.fbx
-  - fileID: 105
-    classID: 43
-    packedSize: 41448
-    offset: 1241160
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 106
-    classID: 43
-    packedSize: 64700
-    offset: 1282608
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 107
-    classID: 43
-    packedSize: 7352
-    offset: 1347312
-    sourceAssetGUID: 4a2627a5b9f121f49bcecbaef4a9976b
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_shoulder_pad_right.fbx
-  - fileID: 108
-    classID: 43
-    packedSize: 33864
-    offset: 1354664
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 109
-    classID: 43
-    packedSize: 14752
-    offset: 1388528
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 110
-    classID: 43
-    packedSize: 45168
-    offset: 1403280
-    sourceAssetGUID: 0ee6db0136cb83543a9a1f52d88e5557
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rock_Round_05.fbx
-  - fileID: 111
-    classID: 43
-    packedSize: 6000
-    offset: 1448448
-    sourceAssetGUID: 1eb2d0f6b28bc8c43ba73e83be333cb1
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Generic_TreeStump_01.fbx
-  - fileID: 112
-    classID: 43
-    packedSize: 2180
-    offset: 1454448
-    sourceAssetGUID: 219de587148d8bb41a8e255859dafe53
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Models/FX_Sphere.fbx
-  - fileID: 113
-    classID: 43
-    packedSize: 24928
-    offset: 1456632
-    sourceAssetGUID: 2869ab0c675551b4986ef8393a04e750
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Grass_Thin_01.fbx
-  - fileID: 114
-    classID: 43
-    packedSize: 10784
-    offset: 1481560
-    sourceAssetGUID: 3fcccdb7544f4c9468d06920c53d589d
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rock_Round_06.fbx
-  - fileID: 115
-    classID: 43
-    packedSize: 2532
-    offset: 1492344
-    sourceAssetGUID: 41e18b74cd8bd984b94d58c040bb66da
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Models/SM_Particle_Smoke_01.fbx
-  - fileID: 116
-    classID: 43
-    packedSize: 14152
-    offset: 1494880
-    sourceAssetGUID: 5160c944ddffa8841b20cd9c410e74ff
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rock_Round_03.fbx
-  - fileID: 117
-    classID: 43
-    packedSize: 816
-    offset: 1509032
-    sourceAssetGUID: 76ed851644297a847916226d6568becb
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/Collision/SM_Env_Dwarf_Stairs_Half_01_Collision.fbx
-  - fileID: 118
-    classID: 43
-    packedSize: 8240
-    offset: 1509848
-    sourceAssetGUID: 7f02154e383b751478246fa6d155f5fa
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rubble_Rocks_01.fbx
-  - fileID: 119
-    classID: 43
-    packedSize: 9800
-    offset: 1518088
-    sourceAssetGUID: bd9e8434774a95c419eb4cd5b1ca34c7
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Sand_01.fbx
-  - fileID: 120
-    classID: 43
-    packedSize: 6400
-    offset: 1527888
-    sourceAssetGUID: c0cc00c7309cc17408f629a98d2f787f
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Crystals_Cluster_Large_03.fbx
-  - fileID: 121
-    classID: 43
-    packedSize: 192968
-    offset: 1534288
-    sourceAssetGUID: f08eee065f0ce244f969d941581fafe9
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Statue_01.fbx
-  - fileID: 122
-    classID: 43
-    packedSize: 788
-    offset: 1727256
-    sourceAssetGUID: c75b6b9ecd5c55f40aebfc952e7b8c52
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Dwarf_Floor_Round_01_Convex.asset
-  - fileID: 123
-    classID: 43
-    packedSize: 25044
-    offset: 1728048
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 124
-    classID: 43
-    packedSize: 23464
-    offset: 1753096
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 125
-    classID: 43
-    packedSize: 41652
-    offset: 1776560
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 126
-    classID: 43
-    packedSize: 3272
-    offset: 1818216
-    sourceAssetGUID: 2e194c541af091940aca83e4ebfb7070
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/crossbow_bolt.fbx
-  - fileID: 127
-    classID: 43
-    packedSize: 584
-    offset: 1821488
-    sourceAssetGUID: 6776ea93397693b4fae5de70fc3312da
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pinch_of_flour.fbx
-  - fileID: 128
-    classID: 43
-    packedSize: 4852
-    offset: 1822072
-    sourceAssetGUID: c7a7cfb53396e2840a06c8afe722a282
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pie.fbx
-  - fileID: 129
-    classID: 43
-    packedSize: 4672
-    offset: 1826928
-    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
-  - fileID: 130
-    classID: 43
-    packedSize: 16036
-    offset: 1831600
-    sourceAssetGUID: 0530f663dd1e3804cb6037eb642d449e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/one_handed_sword.fbx
-  - fileID: 131
-    classID: 43
-    packedSize: 128060
-    offset: 1847640
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 132
-    classID: 43
-    packedSize: 18492
-    offset: 1975704
-    sourceAssetGUID: 2e45c1c225716ea4484d5bee1aa394c3
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/two_handed_hammer.fbx
-  - fileID: 133
-    classID: 43
-    packedSize: 49264
-    offset: 1994200
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 134
-    classID: 43
-    packedSize: 12220
-    offset: 2043464
-    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/crossbow.fbx
-  - fileID: 135
-    classID: 43
-    packedSize: 4300
-    offset: 2055688
-    sourceAssetGUID: f1a0421a7505c384d9b6402d189e3a3c
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/curved_dagger.fbx
-  - fileID: 136
-    classID: 43
-    packedSize: 21832
-    offset: 2059992
-    sourceAssetGUID: 1faa42e8152413b478ba3f56597e6e6c
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor.fbx
-  - fileID: 137
-    classID: 43
-    packedSize: 6288
-    offset: 2081824
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 138
-    classID: 43
-    packedSize: 41972
-    offset: 2088112
-    sourceAssetGUID: aeeaf9597360c8848b7be23b6bf7f7cb
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/tree_02.fbx
-  - fileID: 139
-    classID: 43
-    packedSize: 11548
-    offset: 2130088
-    sourceAssetGUID: e161d11687078284aab116a597b89ffd
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/table_03.fbx
-  - fileID: 140
-    classID: 43
-    packedSize: 4140
-    offset: 2141640
-    sourceAssetGUID: 5cab68a22e51ff64088e8cd0e556ab8a
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/arrow.fbx
-  - fileID: 141
-    classID: 43
-    packedSize: 10872
-    offset: 2145784
-    sourceAssetGUID: 4a070bc0e4acab349aa5f22135680b05
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/two_handed_sword.fbx
-  - fileID: 142
-    classID: 43
-    packedSize: 30884
-    offset: 2156656
-    sourceAssetGUID: 21906786a6f8aff45b0b7234dff38a3e
-    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Models/Bridge2.fbx
-  - fileID: 143
-    classID: 43
-    packedSize: 27516
-    offset: 2187544
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 144
-    classID: 43
-    packedSize: 2772
-    offset: 2215064
-    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_helmet.fbx
-  - fileID: 145
-    classID: 43
-    packedSize: 19792
-    offset: 2217840
-    sourceAssetGUID: c9b76ad37caa4a3aaeecb9a10f8ae126
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Mesh/Character/Swarm08.fbx
-  - fileID: 146
-    classID: 43
-    packedSize: 12048
-    offset: 2237632
-    sourceAssetGUID: dee91cc0ec8d6fa4d8e5ffb4ca109ed1
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/mace.fbx
-  - fileID: 147
-    classID: 43
-    packedSize: 40120
-    offset: 2249680
-    sourceAssetGUID: 87b1697994d280a49aca7324c7fac59e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/two_handed_axe.fbx
-  - fileID: 148
-    classID: 43
-    packedSize: 57944
-    offset: 2289800
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 149
-    classID: 43
-    packedSize: 1212
-    offset: 2347744
-    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
-  - fileID: 150
-    classID: 43
-    packedSize: 5332
-    offset: 2348960
-    sourceAssetGUID: dd890c06263fdbe47be82693915f1a70
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/round_bread.fbx
-  - fileID: 151
-    classID: 43
-    packedSize: 3000
-    offset: 2354296
-    sourceAssetGUID: 2700e50a77a2d03439eeaa594d106219
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/wooden_jar.fbx
-  - fileID: 152
-    classID: 43
-    packedSize: 14988
-    offset: 2357296
-    sourceAssetGUID: 8d98494cbd2398549998270c4ef05c6d
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/short_bow.fbx
-  - fileID: 153
-    classID: 43
-    packedSize: 14572
-    offset: 2372288
-    sourceAssetGUID: a74a6d75509166e4f8a37d3d294d3900
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/long_bow.fbx
-  - fileID: 154
-    classID: 43
-    packedSize: 44760
-    offset: 2386864
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 155
-    classID: 43
-    packedSize: 1328
-    offset: 2431624
-    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/crossbow.fbx
-  - fileID: 156
-    classID: 43
-    packedSize: 7368
-    offset: 2432952
-    sourceAssetGUID: 44806fb2e265b4b41a2c0f0ec40d228b
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_shoulder_pad_left.fbx
-  - fileID: 157
-    classID: 43
-    packedSize: 5344
-    offset: 2440320
-    sourceAssetGUID: 78ff8483b89c12341a30768d76a697f2
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/section_06.fbx
-  - fileID: 158
-    classID: 43
-    packedSize: 8316
-    offset: 2445664
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 159
-    classID: 43
-    packedSize: 27612
-    offset: 2453984
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 160
-    classID: 43
-    packedSize: 54696
-    offset: 2481600
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 161
-    classID: 43
-    packedSize: 2836
-    offset: 2536296
-    sourceAssetGUID: 133443e525b7d2044b8a1cc8894580f3
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
-      market/armor_gorget.fbx
-  - fileID: 162
-    classID: 48
-    packedSize: 14372
-    offset: 2539136
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 163
-    classID: 48
-    packedSize: 7584
-    offset: 2553512
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 164
-    classID: 48
-    packedSize: 7380
-    offset: 2561096
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 165
-    classID: 48
-    packedSize: 7548
-    offset: 2568480
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 166
-    classID: 48
-    packedSize: 1751748
-    offset: 2576032
-    sourceAssetGUID: 933532a4fcc9baf4fa0491de14d08ed7
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
-  - fileID: 167
-    classID: 48
-    packedSize: 20488
-    offset: 4327784
-    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  - fileID: 168
-    classID: 74
-    packedSize: 44872
-    offset: 4348272
-    sourceAssetGUID: df9f2b17a5a54704b98426037bc1f7f4
-    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf_Anim_Idle.fbx
-  - fileID: 169
-    classID: 74
-    packedSize: 39808
-    offset: 4393144
-    sourceAssetGUID: 47dea953cb6362144885db029d08af0a
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Death Warrior.fbx
-  - fileID: 170
-    classID: 74
-    packedSize: 21532
-    offset: 4432952
-    sourceAssetGUID: 6ab3c31e53c24484f9982a70000ef554
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Walking warrior.fbx
-  - fileID: 171
-    classID: 74
-    packedSize: 15752
-    offset: 4454488
-    sourceAssetGUID: 93335fad0d00caf43bbb63b6bbca33cf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Running Warrior.fbx
-  - fileID: 172
-    classID: 74
-    packedSize: 33444
-    offset: 4470240
-    sourceAssetGUID: b4a9aae92cdd7d44e8bc4d3fa596c4a5
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Jumping Warrior.fbx
-  - fileID: 173
-    classID: 74
-    packedSize: 19760
-    offset: 4503688
-    sourceAssetGUID: dd38944f10198d8448827b13b0e20cac
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Idle Warrior.fbx
-  - fileID: 174
-    classID: 74
-    packedSize: 55620
-    offset: 4523448
-    sourceAssetGUID: d49fdf48a4ef36245bb4ca198de6848e
-    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf_Anim_Happy.fbx
-  - fileID: 175
-    classID: 74
-    packedSize: 11004
-    offset: 4579072
-    sourceAssetGUID: 014d4aa244ba4df4a9e8b565e8a2414a
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveRGT.fbx
-  - fileID: 176
-    classID: 74
-    packedSize: 11004
-    offset: 4590080
-    sourceAssetGUID: 16a920137ec44d59a8ec1a39020fae9f
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveBWD.fbx
-  - fileID: 177
-    classID: 74
-    packedSize: 11088
-    offset: 4601088
-    sourceAssetGUID: 4060c39cb3fc47e3b9715535655f6d34
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Idle.fbx
-  - fileID: 178
-    classID: 74
-    packedSize: 8848
-    offset: 4612176
-    sourceAssetGUID: 5a0f0d11a93e46d196fb781da7eacca3
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_GetHit.fbx
-  - fileID: 179
-    classID: 74
-    packedSize: 11004
-    offset: 4621024
-    sourceAssetGUID: 79ba85de661a4af484e03b1978112749
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveFWD.fbx
-  - fileID: 180
-    classID: 74
-    packedSize: 10204
-    offset: 4632032
-    sourceAssetGUID: 7a0fe8419447441abd11dc236dc28a8e
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Attack.fbx
-  - fileID: 181
-    classID: 74
-    packedSize: 11004
-    offset: 4642240
-    sourceAssetGUID: 98e0d0c76c7e48889421b846b11e282a
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveLFT.fbx
-  - fileID: 182
-    classID: 74
-    packedSize: 11004
-    offset: 4653248
-    sourceAssetGUID: e8acb046895a4e67b4e93a6f893e3041
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Die.fbx
-  - fileID: 183
-    classID: 89
-    packedSize: 240
-    offset: 4664256
-    sourceAssetGUID: f418b3051ce9214449ba863b41448e15
-    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
-  - fileID: 184
-    classID: 90
-    packedSize: 111540
-    offset: 4664496
-    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
-    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
-  - fileID: 185
-    classID: 90
-    packedSize: 39152
-    offset: 4776040
-    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
-  - fileID: 186
-    classID: 90
-    packedSize: 3012
-    offset: 4815192
-    sourceAssetGUID: c9b76ad37caa4a3aaeecb9a10f8ae126
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Mesh/Character/Swarm08.fbx
-  - fileID: 187
-    classID: 91
-    packedSize: 804
-    offset: 4818208
-    sourceAssetGUID: d30ea73244eb1da40bcf27121e192696
-    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf.controller
-  - fileID: 188
-    classID: 91
-    packedSize: 4192
-    offset: 4819016
-    sourceAssetGUID: a43e1450746c61247ac709a2a93b2da0
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm.controller
-  - fileID: 189
-    classID: 91
-    packedSize: 3220
-    offset: 4823208
-    sourceAssetGUID: 5f702a45e215c654dbfb3520231d35c9
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Warrior.controller
-  - fileID: 190
-    classID: 128
-    packedSize: 352462
-    offset: 4826432
-    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
-  - fileID: 191
-    classID: 258
-    packedSize: 40
-    offset: 5178896
-    sourceAssetGUID: 4c532aebe2988644b8c863af866818c4
-    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
-  - fileID: 192
-    classID: 850595691
-    packedSize: 52
-    offset: 5178936
-    sourceAssetGUID: 6b08aaae7f1874247b7d09b8601ae2c8
-    buildTimeAssetPath: Assets/Scenes/SampleScene/New Lighting Settings.lighting
-  - fileID: 193
-    classID: 114
-    packedSize: 1156
-    offset: 5178992
-    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF - Fallback.asset
-  - fileID: 194
-    classID: 114
-    packedSize: 28764
-    offset: 5180152
-    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF.asset
---- !u!1126 &1189245978518092767
+  - {fileID: -4243247132480588870}
+  - {fileID: 6747633252403751241}
+  - {fileID: 7989839942794059351}
+  - {fileID: -6373126271473226188}
+  - {fileID: 140345671433710270}
+  - {fileID: -7549284017824738495}
+  - {fileID: 8264221481264024508}
+  - {fileID: -8755759479682096307}
+  - {fileID: 9120157151377331878}
+  - {fileID: -7799735326838723777}
+  - {fileID: 6452683175505818350}
+--- !u!1126 &140345671433710270
 PackedAssets:
   m_ShortPath: level0.resS
   m_Overhead: 32
   m_Contents:
   - fileID: 0
     classID: 43
-    packedSize: 260400
+    packedSize: 1161888
     offset: 0
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 11'
-  - fileID: 0
-    classID: 43
-    packedSize: 1402160
-    offset: 260400
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 9'
-  - fileID: 0
-    classID: 43
-    packedSize: 23360
-    offset: 1662560
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 10'
-  - fileID: 0
-    classID: 43
-    packedSize: 126120
-    offset: 1685920
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 3'
-  - fileID: 0
-    classID: 43
-    packedSize: 1955440
-    offset: 1812048
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 5'
-  - fileID: 0
-    classID: 43
-    packedSize: 2523800
-    offset: 3767488
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 4'
   - fileID: 0
     classID: 43
-    packedSize: 2553600
-    offset: 6291296
+    packedSize: 2550840
+    offset: 1161888
     sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 7'
+    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 5'
   - fileID: 0
     classID: 43
-    packedSize: 897880
-    offset: 8844896
+    packedSize: 1800240
+    offset: 3712736
     sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 2'
+    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 3'
   - fileID: 0
     classID: 43
-    packedSize: 2544240
-    offset: 9742784
+    packedSize: 2503320
+    offset: 5512976
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene)'
   - fileID: 0
     classID: 43
-    packedSize: 2551880
-    offset: 12287024
+    packedSize: 90160
+    offset: 8016304
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 8'
   - fileID: 0
     classID: 43
-    packedSize: 256080
-    offset: 14838912
+    packedSize: 1174080
+    offset: 8106464
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 7'
+  - fileID: 0
+    classID: 43
+    packedSize: 2545320
+    offset: 9280544
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 6'
---- !u!1126 &6796586222115668881
-PackedAssets:
-  m_ShortPath: resources.assets.resS
-  m_Overhead: 61
-  m_Contents:
-  - fileID: 0
-    classID: 28
-    packedSize: 5460
-    offset: 0
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 0
-    classID: 28
-    packedSize: 3
-    offset: 5472
-    sourceAssetGUID: 127279d577f25ac4ea17dae3782e5074
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
-  - fileID: 0
-    classID: 28
-    packedSize: 1936
-    offset: 5488
-    sourceAssetGUID: 22ccd964427c9504d86b684f95542950
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconTwitter.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 7424
-    sourceAssetGUID: 31fe8245f609dbe449606eeb22eceea4
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Performance_Info.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 8256
-    sourceAssetGUID: 6552be13f9333b440ab2f70db54f4bcd
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Error_Icon.png
-  - fileID: 0
-    classID: 28
-    packedSize: 484
-    offset: 9088
-    sourceAssetGUID: 7a0568d5e3330b84687e307992be3030
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
-  - fileID: 0
-    classID: 28
-    packedSize: 1936
-    offset: 9584
-    sourceAssetGUID: 86dcb7ad296bf7a4c92042ff5ff2899d
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconDiscord.png
-  - fileID: 0
-    classID: 28
-    packedSize: 30272
-    offset: 11520
-    sourceAssetGUID: 8ac7bb233e24a7d44b1e5c093c7a9973
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/VRWTSplashLogo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 41792
-    sourceAssetGUID: 9716735332b04a3459d8446f7b8dd369
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Warning_Icon.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 42624
-    sourceAssetGUID: a3de8bd254d420d4c8d381013287bdc9
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Performance_Tips.png
-  - fileID: 0
-    classID: 28
-    packedSize: 484
-    offset: 43456
-    sourceAssetGUID: a674720496c1ed248a5b7ea3e22a11fd
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
-  - fileID: 0
-    classID: 28
-    packedSize: 484
-    offset: 43952
-    sourceAssetGUID: b346b2a2df1d290438be3287b6419408
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 44448
-    sourceAssetGUID: ba2fba4f6e6b52641b65057aae7d8c91
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Good_FPS_Icon.png
-  - fileID: 0
-    classID: 28
-    packedSize: 832
-    offset: 45280
-    sourceAssetGUID: cf3514a8266576c44bdb115f3e90ad2d
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/DebuggerIcons/Bad_FPS_Icon.png
-  - fileID: 0
-    classID: 28
-    packedSize: 256
-    offset: 46112
-    sourceAssetGUID: d49e78756811bfa4aafb8b6535417991
-    buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
-  - fileID: 0
-    classID: 28
-    packedSize: 158432
-    offset: 46368
-    sourceAssetGUID: dffef66376be4fa480fb02b19edbe903
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Sprites/EmojiOne.png
-  - fileID: 0
-    classID: 28
-    packedSize: 1936
-    offset: 204800
-    sourceAssetGUID: ee7466bdf89c818418a3324760b635bd
-    buildTimeAssetPath: Assets/Packages/VRWorldToolkit/Resources/VRWorldToolkit/SplashTextures/IconGithub.png
---- !u!1126 &8060715705442153691
-PackedAssets:
-  m_ShortPath: sharedassets0.assets.resS
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 0
-    sourceAssetGUID: 041f25101742fb046b44726e3fcf004f
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_dir.png
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 349552
-    sourceAssetGUID: 065b9c959e26bce47b4446687823d61f
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_albedo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 436976
-    sourceAssetGUID: 07775286b12d6d149b685d660e52147d
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
-  - fileID: 0
-    classID: 28
-    packedSize: 158432
-    offset: 786528
-    sourceAssetGUID: 0f16a97fe2f07c54f92596201e4273ec
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_metallic.png
-  - fileID: 0
-    classID: 28
-    packedSize: 10528
-    offset: 944960
-    sourceAssetGUID: 16adfabf761583f4a9ad5823e0ea8c8e
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Weapon
-      market.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 65536
-    offset: 955488
-    sourceAssetGUID: 1c8031630249ff8448e393ba84a93c9f
-    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_ClothingM_BaseColor.jpg"
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 1021024
-    sourceAssetGUID: 2d8c37a80a0dbf442b7b27851bfaa297
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
-  - fileID: 0
-    classID: 28
-    packedSize: 2784
-    offset: 1370576
-    sourceAssetGUID: 2deb9a997d4c62c4d92210d0f0a9abdd
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 1373360
-    sourceAssetGUID: 2f6a12d37c7ba4c43a5156d61ecf74fd
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
-  - fileID: 0
-    classID: 28
-    packedSize: 5504
-    offset: 1722912
-    sourceAssetGUID: 2fc5fd69f2ef4c3aa4393a24c3fdd596
-    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Texture/DefaultPBR/Albedo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 848
-    offset: 1728416
-    sourceAssetGUID: 3ccce67bd48bfcd459a2ef0393fdf83e
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Sparkle.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 1729264
-    sourceAssetGUID: 416c6e4fad0461b4db708397b878aec3
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_dir.png
-  - fileID: 0
-    classID: 28
-    packedSize: 10528
-    offset: 2078816
-    sourceAssetGUID: 48dd9a7736c11b5448a74711310e2ee6
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 2089344
-    sourceAssetGUID: 4b48d75761b65d2499585c30c7f0ee37
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 2438896
-    sourceAssetGUID: 4bbcfd991ffc8e04aae9f9723ec65ae4
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_normal.png
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 2526320
-    sourceAssetGUID: 56cf0255172e0cc4591ce3126af761f1
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_metallic.png
-  - fileID: 0
-    classID: 28
-    packedSize: 10528
-    offset: 2613744
-    sourceAssetGUID: 626bf64cb9cd0a6458a86b6fadececa7
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Environment.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 848
-    offset: 2624272
-    sourceAssetGUID: 7cc0b541520b0734c80ea6934a192675
-    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Circle_01.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 2625120
-    sourceAssetGUID: 84fd0a2f24b7b184995e7b6d8eecde17
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 2974672
-    sourceAssetGUID: 9d40a8ece69e42042bebd2c0d28b7c34
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_alpha.png
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 3062096
-    sourceAssetGUID: 9ec7f5987e127b64bbc104ed8e384509
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_light.exr
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 3411648
-    sourceAssetGUID: a793a0fd046fcaa4fb4c3cd0a962cf69
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-4_comp_dir.png
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 3761200
-    sourceAssetGUID: a9178e4d5631a714f896b8036b565361
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_normal.png
-  - fileID: 0
-    classID: 28
-    packedSize: 5408
-    offset: 3848624
-    sourceAssetGUID: b05e25f72fc74f5408cdc9c4f1db9384
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/LaternsEmission.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 349552
-    offset: 3854032
-    sourceAssetGUID: b33cfc4fea0cb2840a7edf71edc7e9b0
-    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-3_comp_light.exr
-  - fileID: 0
-    classID: 28
-    packedSize: 65536
-    offset: 4203584
-    sourceAssetGUID: b3cf63f3fb542f2428b43be7498593ca
-    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_BodyM_BaseColor.jpg"
-  - fileID: 0
-    classID: 28
-    packedSize: 20544
-    offset: 4269120
-    sourceAssetGUID: c08df9614ce228a45b4c99e0a8dff6ae
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Latens.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 4289664
-    sourceAssetGUID: c52c7381dcf38a547b392a3ba8ec96e8
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_normal.png
-  - fileID: 0
-    classID: 28
-    packedSize: 2784
-    offset: 4377088
-    sourceAssetGUID: ca5218861d869e442bcae7aca8629a7b
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 2784
-    offset: 4379872
-    sourceAssetGUID: d21b0d52ea5f1c84ba2e275be1619ee0
-    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png
-  - fileID: 0
-    classID: 28
-    packedSize: 87424
-    offset: 4382656
-    sourceAssetGUID: d8cfadc3e19d2774cbbb3d9f0af4e4fa
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_albedo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 21888
-    offset: 4470080
-    sourceAssetGUID: db806809cc4e06643af394f9dbb65c6e
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_albedo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 5408
-    offset: 4491968
-    sourceAssetGUID: fbcaea10385462040a79c4950d5f65ed
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Bakery
-      market texture.tif
-  - fileID: 0
-    classID: 28
-    packedSize: 158432
-    offset: 4497376
-    sourceAssetGUID: fcb97a98ffba07e46b840b291efe118c
-    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_albedo.png
-  - fileID: 0
-    classID: 28
-    packedSize: 1048576
-    offset: 4655808
-    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
-    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
-      & Materials/LiberationSans SDF.asset
   - fileID: 0
     classID: 43
-    packedSize: 37120
-    offset: 5704384
-    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
+    packedSize: 2542560
+    offset: 11825872
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 2'
   - fileID: 0
     classID: 43
-    packedSize: 5504
-    offset: 5741504
-    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
-    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
-  - fileID: 0
-    classID: 89
-    packedSize: 32928
-    offset: 5747008
-    sourceAssetGUID: f418b3051ce9214449ba863b41448e15
-    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
---- !u!1521398425 &8916924469639342400
+    packedSize: 190200
+    offset: 14368432
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in Mesh: Combined Mesh (root: scene) 9'
+--- !u!1521398425 &6452683175505818350
 VideoBuildInfo:
   m_VideoClipCount: 0
   m_IsVideoModuleDisabled: 0
---- !u!1126 &9173920386203853585
+--- !u!1126 &6747633252403751241
 PackedAssets:
   m_ShortPath: resources.assets
   m_Overhead: 39889
@@ -20932,3 +19450,1389 @@ PackedAssets:
     offset: 286496
     sourceAssetGUID: 7c78b588b2e1f7c4a86ca4a985cf6e4a
     buildTimeAssetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab
+--- !u!1126 &7989839942794059351
+PackedAssets:
+  m_ShortPath: sharedassets0.assets
+  m_Overhead: 5357
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 229
+    offset: 5008
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 21
+    packedSize: 1608
+    offset: 5240
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 3
+    classID: 21
+    packedSize: 268
+    offset: 6848
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 1612
+    offset: 7120
+    sourceAssetGUID: 3f24feb076cc769428ae9d947fcf8e44
+    buildTimeAssetPath: Assets/Characters/Elf/Material/Cloth.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 1616
+    offset: 8736
+    sourceAssetGUID: 132cd3d4b4119dd45b843df2eaa083c2
+    buildTimeAssetPath: Assets/Characters/Elf/Material/New Material.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 1648
+    offset: 10352
+    sourceAssetGUID: 984bce432f27eec45886623bba2c741e
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Material/PA_Default.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 1604
+    offset: 12000
+    sourceAssetGUID: fade5155655f1bc4c9a6873632f804c9
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_armor.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 1716
+    offset: 13608
+    sourceAssetGUID: dd7f197e6505c8e49aebf5da77824222
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_body.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 1604
+    offset: 15328
+    sourceAssetGUID: d7fd6a947d9cb1b46a49860f75d2e60b
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_clothes.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 2484
+    offset: 16936
+    sourceAssetGUID: 8279b5291ce920a48b9dbe640562772e
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Material/Warrior_hair.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 1648
+    offset: 19424
+    sourceAssetGUID: 2029a5a2a27b8484bb3e2562d8bbdfa3
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_000.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 1676
+    offset: 21072
+    sourceAssetGUID: 09c0c3f8df5925948ae159e03bf40def
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_004.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 1648
+    offset: 22752
+    sourceAssetGUID: 4473d3aa8f385654795f98b674c20462
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_007.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 1676
+    offset: 24400
+    sourceAssetGUID: 991fe0467bc27354f88af9913757671c
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C08.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 1676
+    offset: 26080
+    sourceAssetGUID: 2cea64b40f3a51441b57b84f34a9f545
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C12.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 1676
+    offset: 27760
+    sourceAssetGUID: cf0ad78c86cc460428011455a47b6ef7
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_C18.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 1676
+    offset: 29440
+    sourceAssetGUID: 00b9f82776e13e744bbad95a44a4371b
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/Color_D10.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 1648
+    offset: 31120
+    sourceAssetGUID: 39e898393456ee64c94b931509d0b6bd
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Materials/_LightGray_.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 1588
+    offset: 32768
+    sourceAssetGUID: e34997156649c524d8f2adec1e33ca44
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Models/Materials/BackColor.001.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 1680
+    offset: 34360
+    sourceAssetGUID: 8444303dee6f21e4c943696eae671249
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Bakery
+      matket.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 1704
+    offset: 36040
+    sourceAssetGUID: a291be32ec43ce64d8c49e74fe31d82d
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Environment.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 1688
+    offset: 37744
+    sourceAssetGUID: 8e153a51647cf7f4cb57852c1a31d47d
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Laterns.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 1680
+    offset: 39432
+    sourceAssetGUID: 12f7312dd149c3b4a92b4216a8ae4800
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Materials/Weapon
+      market.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 1652
+    offset: 41112
+    sourceAssetGUID: ff12f95fea14be547980dcb3befc07d5
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 1780
+    offset: 42768
+    sourceAssetGUID: 2a12d3fc0532ba64e972160db18dfd99
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 1656
+    offset: 44552
+    sourceAssetGUID: 6f738c9e4b1ec0c488fe9ad860e8df87
+    buildTimeAssetPath: Assets/Materials/MM_SimpleMaterial.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 568
+    offset: 46208
+    sourceAssetGUID: f3053f8556ff7cf4fb59de5cf109104e
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Circle.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 800
+    offset: 46776
+    sourceAssetGUID: 417cbbf4755e392408e489080c4ede09
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Default_01.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 604
+    offset: 47576
+    sourceAssetGUID: 2372c82814ea2ed41aed3d611d81953d
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_Sparkle.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 648
+    offset: 48184
+    sourceAssetGUID: 285b0791008c39844936e10062f85a3c
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 1724
+    offset: 48832
+    sourceAssetGUID: 31321ba15b8f8eb4c954353edc038b1d
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 148
+    offset: 50560
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 33
+    classID: 21
+    packedSize: 2016
+    offset: 50712
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF - Fallback.asset
+  - fileID: 34
+    classID: 21
+    packedSize: 956
+    offset: 52728
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF.asset
+  - fileID: 35
+    classID: 21
+    packedSize: 1584
+    offset: 53688
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 36
+    classID: 28
+    packedSize: 164
+    offset: 55272
+    sourceAssetGUID: 065b9c959e26bce47b4446687823d61f
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_albedo.png
+  - fileID: 37
+    classID: 28
+    packedSize: 168
+    offset: 55440
+    sourceAssetGUID: 07775286b12d6d149b685d660e52147d
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  - fileID: 38
+    classID: 28
+    packedSize: 168
+    offset: 55608
+    sourceAssetGUID: 0f16a97fe2f07c54f92596201e4273ec
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_metallic.png
+  - fileID: 39
+    classID: 28
+    packedSize: 160
+    offset: 55776
+    sourceAssetGUID: 16adfabf761583f4a9ad5823e0ea8c8e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Weapon
+      market.tif
+  - fileID: 40
+    classID: 28
+    packedSize: 176
+    offset: 55936
+    sourceAssetGUID: 1c8031630249ff8448e393ba84a93c9f
+    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_ClothingM_BaseColor.jpg"
+  - fileID: 41
+    classID: 28
+    packedSize: 176
+    offset: 56112
+    sourceAssetGUID: 2deb9a997d4c62c4d92210d0f0a9abdd
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png
+  - fileID: 42
+    classID: 28
+    packedSize: 168
+    offset: 56288
+    sourceAssetGUID: 2f6a12d37c7ba4c43a5156d61ecf74fd
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+  - fileID: 43
+    classID: 28
+    packedSize: 152
+    offset: 56456
+    sourceAssetGUID: 2fc5fd69f2ef4c3aa4393a24c3fdd596
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Texture/DefaultPBR/Albedo.png
+  - fileID: 44
+    classID: 28
+    packedSize: 168
+    offset: 56608
+    sourceAssetGUID: 3ccce67bd48bfcd459a2ef0393fdf83e
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Sparkle.png
+  - fileID: 45
+    classID: 28
+    packedSize: 168
+    offset: 56776
+    sourceAssetGUID: 48dd9a7736c11b5448a74711310e2ee6
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png
+  - fileID: 46
+    classID: 28
+    packedSize: 164
+    offset: 56944
+    sourceAssetGUID: 4bbcfd991ffc8e04aae9f9723ec65ae4
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_normal.png
+  - fileID: 47
+    classID: 28
+    packedSize: 168
+    offset: 57112
+    sourceAssetGUID: 56cf0255172e0cc4591ce3126af761f1
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_metallic.png
+  - fileID: 48
+    classID: 28
+    packedSize: 156
+    offset: 57280
+    sourceAssetGUID: 626bf64cb9cd0a6458a86b6fadececa7
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Environment.tif
+  - fileID: 49
+    classID: 28
+    packedSize: 172
+    offset: 57440
+    sourceAssetGUID: 7cc0b541520b0734c80ea6934a192675
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Circle_01.png
+  - fileID: 50
+    classID: 28
+    packedSize: 168
+    offset: 57616
+    sourceAssetGUID: 84fd0a2f24b7b184995e7b6d8eecde17
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 51
+    classID: 28
+    packedSize: 164
+    offset: 57784
+    sourceAssetGUID: 9d40a8ece69e42042bebd2c0d28b7c34
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_alpha.png
+  - fileID: 52
+    classID: 28
+    packedSize: 168
+    offset: 57952
+    sourceAssetGUID: a9178e4d5631a714f896b8036b565361
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_normal.png
+  - fileID: 53
+    classID: 28
+    packedSize: 160
+    offset: 58120
+    sourceAssetGUID: b05e25f72fc74f5408cdc9c4f1db9384
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/LaternsEmission.tif
+  - fileID: 54
+    classID: 28
+    packedSize: 172
+    offset: 58280
+    sourceAssetGUID: b3cf63f3fb542f2428b43be7498593ca
+    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_BodyM_BaseColor.jpg"
+  - fileID: 55
+    classID: 28
+    packedSize: 152
+    offset: 58456
+    sourceAssetGUID: c08df9614ce228a45b4c99e0a8dff6ae
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Latens.tif
+  - fileID: 56
+    classID: 28
+    packedSize: 164
+    offset: 58608
+    sourceAssetGUID: c52c7381dcf38a547b392a3ba8ec96e8
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_normal.png
+  - fileID: 57
+    classID: 28
+    packedSize: 168
+    offset: 58776
+    sourceAssetGUID: ca5218861d869e442bcae7aca8629a7b
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif
+  - fileID: 58
+    classID: 28
+    packedSize: 176
+    offset: 58944
+    sourceAssetGUID: d21b0d52ea5f1c84ba2e275be1619ee0
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png
+  - fileID: 59
+    classID: 28
+    packedSize: 168
+    offset: 59120
+    sourceAssetGUID: d8cfadc3e19d2774cbbb3d9f0af4e4fa
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_albedo.png
+  - fileID: 60
+    classID: 28
+    packedSize: 164
+    offset: 59288
+    sourceAssetGUID: db806809cc4e06643af394f9dbb65c6e
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_albedo.png
+  - fileID: 61
+    classID: 28
+    packedSize: 128
+    offset: 59456
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 62
+    classID: 28
+    packedSize: 168
+    offset: 59584
+    sourceAssetGUID: fbcaea10385462040a79c4950d5f65ed
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Bakery
+      market texture.tif
+  - fileID: 63
+    classID: 28
+    packedSize: 164
+    offset: 59752
+    sourceAssetGUID: fcb97a98ffba07e46b840b291efe118c
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_albedo.png
+  - fileID: 64
+    classID: 28
+    packedSize: 140
+    offset: 59920
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF - Fallback.asset
+  - fileID: 65
+    classID: 28
+    packedSize: 168
+    offset: 60064
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF.asset
+  - fileID: 66
+    classID: 43
+    packedSize: 4988
+    offset: 60232
+    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_helmet.fbx
+  - fileID: 67
+    classID: 43
+    packedSize: 12500
+    offset: 65224
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 68
+    classID: 43
+    packedSize: 51684
+    offset: 77728
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 69
+    classID: 43
+    packedSize: 183064
+    offset: 129416
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 70
+    classID: 43
+    packedSize: 18372
+    offset: 312480
+    sourceAssetGUID: 8ab5ed643d71db440a2338820ca4fa91
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/axe.fbx
+  - fileID: 71
+    classID: 43
+    packedSize: 4128
+    offset: 330856
+    sourceAssetGUID: 0beffb5271d8f24449893df9714c08b6
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pastry.fbx
+  - fileID: 72
+    classID: 43
+    packedSize: 21504
+    offset: 334984
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 73
+    classID: 43
+    packedSize: 30920
+    offset: 356488
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 74
+    classID: 43
+    packedSize: 36464
+    offset: 387408
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 75
+    classID: 43
+    packedSize: 1360
+    offset: 423872
+    sourceAssetGUID: 7a124a28803e38547aac4126f9b08bc1
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/cookie.fbx
+  - fileID: 76
+    classID: 43
+    packedSize: 12596
+    offset: 425232
+    sourceAssetGUID: ce34fbf2a59d2854e8d9207554ecb954
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/tree_03.fbx
+  - fileID: 77
+    classID: 43
+    packedSize: 3864
+    offset: 437832
+    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/crossbow.fbx
+  - fileID: 78
+    classID: 43
+    packedSize: 5652
+    offset: 441696
+    sourceAssetGUID: 617568d1c23d5b04cbc73bd5dce482fd
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/trailway_02.fbx
+  - fileID: 79
+    classID: 43
+    packedSize: 7320
+    offset: 447352
+    sourceAssetGUID: 6c1f14ddf621b9b40a5a5f69f90404b5
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/spear.fbx
+  - fileID: 80
+    classID: 43
+    packedSize: 6876
+    offset: 454672
+    sourceAssetGUID: 08c36fd1bcfd64446a57573b7990d6ed
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/blacksmith_hammer.fbx
+  - fileID: 81
+    classID: 43
+    packedSize: 5540
+    offset: 461552
+    sourceAssetGUID: f00cac306a000f245b2ddf0e5f1bb8c2
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/dagger.fbx
+  - fileID: 82
+    classID: 43
+    packedSize: 7480
+    offset: 467096
+    sourceAssetGUID: 50919361b0d329648bfad63c61dc4323
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/short_sword.fbx
+  - fileID: 83
+    classID: 43
+    packedSize: 30832
+    offset: 474576
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 84
+    classID: 43
+    packedSize: 217048
+    offset: 505408
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 85
+    classID: 43
+    packedSize: 36400
+    offset: 722456
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 86
+    classID: 43
+    packedSize: 2736
+    offset: 758856
+    sourceAssetGUID: 0dfb12300f720f84eb3c7e6b6055ad35
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/long_loaf.fbx
+  - fileID: 87
+    classID: 43
+    packedSize: 3272
+    offset: 761592
+    sourceAssetGUID: a74a6d75509166e4f8a37d3d294d3900
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/long_bow.fbx
+  - fileID: 88
+    classID: 43
+    packedSize: 1440
+    offset: 764864
+    sourceAssetGUID: 4fdd31f04f1abfa499e3467943c426fc
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/egg_brown.fbx
+  - fileID: 89
+    classID: 43
+    packedSize: 1440
+    offset: 766304
+    sourceAssetGUID: 92529b3f7b4d2094faf19b093b491f39
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/egg_white.fbx
+  - fileID: 90
+    classID: 43
+    packedSize: 269956
+    offset: 767744
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 91
+    classID: 43
+    packedSize: 97284
+    offset: 1037704
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 92
+    classID: 43
+    packedSize: 38992
+    offset: 1134992
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 93
+    classID: 43
+    packedSize: 1772
+    offset: 1173984
+    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_helmet.fbx
+  - fileID: 94
+    classID: 43
+    packedSize: 976
+    offset: 1175760
+    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/crossbow.fbx
+  - fileID: 95
+    classID: 43
+    packedSize: 36228
+    offset: 1176736
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 96
+    classID: 43
+    packedSize: 17828
+    offset: 1212968
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 97
+    classID: 43
+    packedSize: 3276
+    offset: 1230800
+    sourceAssetGUID: 8d98494cbd2398549998270c4ef05c6d
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/short_bow.fbx
+  - fileID: 98
+    classID: 43
+    packedSize: 41448
+    offset: 1234080
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 99
+    classID: 43
+    packedSize: 64700
+    offset: 1275528
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 100
+    classID: 43
+    packedSize: 7352
+    offset: 1340232
+    sourceAssetGUID: 4a2627a5b9f121f49bcecbaef4a9976b
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_shoulder_pad_right.fbx
+  - fileID: 101
+    classID: 43
+    packedSize: 33864
+    offset: 1347584
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 102
+    classID: 43
+    packedSize: 14752
+    offset: 1381448
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 103
+    classID: 43
+    packedSize: 6000
+    offset: 1396200
+    sourceAssetGUID: 1eb2d0f6b28bc8c43ba73e83be333cb1
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Generic_TreeStump_01.fbx
+  - fileID: 104
+    classID: 43
+    packedSize: 2180
+    offset: 1402200
+    sourceAssetGUID: 219de587148d8bb41a8e255859dafe53
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Models/FX_Sphere.fbx
+  - fileID: 105
+    classID: 43
+    packedSize: 24928
+    offset: 1404384
+    sourceAssetGUID: 2869ab0c675551b4986ef8393a04e750
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Grass_Thin_01.fbx
+  - fileID: 106
+    classID: 43
+    packedSize: 2532
+    offset: 1429312
+    sourceAssetGUID: 41e18b74cd8bd984b94d58c040bb66da
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Models/SM_Particle_Smoke_01.fbx
+  - fileID: 107
+    classID: 43
+    packedSize: 14152
+    offset: 1431848
+    sourceAssetGUID: 5160c944ddffa8841b20cd9c410e74ff
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rock_Round_03.fbx
+  - fileID: 108
+    classID: 43
+    packedSize: 816
+    offset: 1446000
+    sourceAssetGUID: 76ed851644297a847916226d6568becb
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/Collision/SM_Env_Dwarf_Stairs_Half_01_Collision.fbx
+  - fileID: 109
+    classID: 43
+    packedSize: 8240
+    offset: 1446816
+    sourceAssetGUID: 7f02154e383b751478246fa6d155f5fa
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Rubble_Rocks_01.fbx
+  - fileID: 110
+    classID: 43
+    packedSize: 9800
+    offset: 1455056
+    sourceAssetGUID: bd9e8434774a95c419eb4cd5b1ca34c7
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Sand_01.fbx
+  - fileID: 111
+    classID: 43
+    packedSize: 7588
+    offset: 1464856
+    sourceAssetGUID: c0cc00c7309cc17408f629a98d2f787f
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Crystals_Cluster_Large_03.fbx
+  - fileID: 112
+    classID: 43
+    packedSize: 6420
+    offset: 1472448
+    sourceAssetGUID: d47dfef90b5bed241aa0ce186e8e5231
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Crystals_Cluster_Large_01.fbx
+  - fileID: 113
+    classID: 43
+    packedSize: 168416
+    offset: 1478872
+    sourceAssetGUID: f08eee065f0ce244f969d941581fafe9
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Statue_01.fbx
+  - fileID: 114
+    classID: 43
+    packedSize: 14376
+    offset: 1647288
+    sourceAssetGUID: 21906786a6f8aff45b0b7234dff38a3e
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Models/Bridge2.fbx
+  - fileID: 115
+    classID: 43
+    packedSize: 788
+    offset: 1661664
+    sourceAssetGUID: c75b6b9ecd5c55f40aebfc952e7b8c52
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Models/SM_Env_Dwarf_Floor_Round_01_Convex.asset
+  - fileID: 116
+    classID: 43
+    packedSize: 25044
+    offset: 1662456
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 117
+    classID: 43
+    packedSize: 23464
+    offset: 1687504
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 118
+    classID: 43
+    packedSize: 41652
+    offset: 1710968
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 119
+    classID: 43
+    packedSize: 3272
+    offset: 1752624
+    sourceAssetGUID: 2e194c541af091940aca83e4ebfb7070
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/crossbow_bolt.fbx
+  - fileID: 120
+    classID: 43
+    packedSize: 560
+    offset: 1755896
+    sourceAssetGUID: 6776ea93397693b4fae5de70fc3312da
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pinch_of_flour.fbx
+  - fileID: 121
+    classID: 43
+    packedSize: 4268
+    offset: 1756456
+    sourceAssetGUID: c7a7cfb53396e2840a06c8afe722a282
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/pie.fbx
+  - fileID: 122
+    classID: 43
+    packedSize: 4672
+    offset: 1760728
+    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
+  - fileID: 123
+    classID: 43
+    packedSize: 16036
+    offset: 1765400
+    sourceAssetGUID: 0530f663dd1e3804cb6037eb642d449e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/one_handed_sword.fbx
+  - fileID: 124
+    classID: 43
+    packedSize: 128060
+    offset: 1781440
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 125
+    classID: 43
+    packedSize: 18492
+    offset: 1909504
+    sourceAssetGUID: 2e45c1c225716ea4484d5bee1aa394c3
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/two_handed_hammer.fbx
+  - fileID: 126
+    classID: 43
+    packedSize: 49264
+    offset: 1928000
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 127
+    classID: 43
+    packedSize: 12220
+    offset: 1977264
+    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/crossbow.fbx
+  - fileID: 128
+    classID: 43
+    packedSize: 4300
+    offset: 1989488
+    sourceAssetGUID: f1a0421a7505c384d9b6402d189e3a3c
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/curved_dagger.fbx
+  - fileID: 129
+    classID: 43
+    packedSize: 21832
+    offset: 1993792
+    sourceAssetGUID: 1faa42e8152413b478ba3f56597e6e6c
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor.fbx
+  - fileID: 130
+    classID: 43
+    packedSize: 6288
+    offset: 2015624
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 131
+    classID: 43
+    packedSize: 41972
+    offset: 2021912
+    sourceAssetGUID: aeeaf9597360c8848b7be23b6bf7f7cb
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/tree_02.fbx
+  - fileID: 132
+    classID: 43
+    packedSize: 11548
+    offset: 2063888
+    sourceAssetGUID: e161d11687078284aab116a597b89ffd
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/table_03.fbx
+  - fileID: 133
+    classID: 43
+    packedSize: 4140
+    offset: 2075440
+    sourceAssetGUID: 5cab68a22e51ff64088e8cd0e556ab8a
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/arrow.fbx
+  - fileID: 134
+    classID: 43
+    packedSize: 10872
+    offset: 2079584
+    sourceAssetGUID: 4a070bc0e4acab349aa5f22135680b05
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/two_handed_sword.fbx
+  - fileID: 135
+    classID: 43
+    packedSize: 24932
+    offset: 2090456
+    sourceAssetGUID: 21906786a6f8aff45b0b7234dff38a3e
+    buildTimeAssetPath: Assets/Environment/3D Cartoon Village/Models/Bridge2.fbx
+  - fileID: 136
+    classID: 43
+    packedSize: 27516
+    offset: 2115392
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 137
+    classID: 43
+    packedSize: 2772
+    offset: 2142912
+    sourceAssetGUID: a1aa7fd9efd838f4a867684d5ffcc611
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_helmet.fbx
+  - fileID: 138
+    classID: 43
+    packedSize: 19792
+    offset: 2145688
+    sourceAssetGUID: c9b76ad37caa4a3aaeecb9a10f8ae126
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Mesh/Character/Swarm08.fbx
+  - fileID: 139
+    classID: 43
+    packedSize: 12048
+    offset: 2165480
+    sourceAssetGUID: dee91cc0ec8d6fa4d8e5ffb4ca109ed1
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/mace.fbx
+  - fileID: 140
+    classID: 43
+    packedSize: 40120
+    offset: 2177528
+    sourceAssetGUID: 87b1697994d280a49aca7324c7fac59e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/two_handed_axe.fbx
+  - fileID: 141
+    classID: 43
+    packedSize: 57944
+    offset: 2217648
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 142
+    classID: 43
+    packedSize: 1212
+    offset: 2275592
+    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
+  - fileID: 143
+    classID: 43
+    packedSize: 2680
+    offset: 2276808
+    sourceAssetGUID: dd890c06263fdbe47be82693915f1a70
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/round_bread.fbx
+  - fileID: 144
+    classID: 43
+    packedSize: 2652
+    offset: 2279488
+    sourceAssetGUID: 2700e50a77a2d03439eeaa594d106219
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/wooden_jar.fbx
+  - fileID: 145
+    classID: 43
+    packedSize: 14988
+    offset: 2282144
+    sourceAssetGUID: 8d98494cbd2398549998270c4ef05c6d
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/short_bow.fbx
+  - fileID: 146
+    classID: 43
+    packedSize: 14572
+    offset: 2297136
+    sourceAssetGUID: a74a6d75509166e4f8a37d3d294d3900
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/long_bow.fbx
+  - fileID: 147
+    classID: 43
+    packedSize: 44760
+    offset: 2311712
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 148
+    classID: 43
+    packedSize: 1328
+    offset: 2356472
+    sourceAssetGUID: 519d2ebaf824d1d4da5ddaac0ae66a5e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/crossbow.fbx
+  - fileID: 149
+    classID: 43
+    packedSize: 7368
+    offset: 2357800
+    sourceAssetGUID: 44806fb2e265b4b41a2c0f0ec40d228b
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_shoulder_pad_left.fbx
+  - fileID: 150
+    classID: 43
+    packedSize: 5344
+    offset: 2365168
+    sourceAssetGUID: 78ff8483b89c12341a30768d76a697f2
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/section_06.fbx
+  - fileID: 151
+    classID: 43
+    packedSize: 8316
+    offset: 2370512
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 152
+    classID: 43
+    packedSize: 27612
+    offset: 2378832
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 153
+    classID: 43
+    packedSize: 54696
+    offset: 2406448
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 154
+    classID: 43
+    packedSize: 2836
+    offset: 2461144
+    sourceAssetGUID: 133443e525b7d2044b8a1cc8894580f3
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/FBX Weapon
+      market/armor_gorget.fbx
+  - fileID: 155
+    classID: 48
+    packedSize: 14372
+    offset: 2463984
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 156
+    classID: 48
+    packedSize: 7584
+    offset: 2478360
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 157
+    classID: 48
+    packedSize: 7380
+    offset: 2485944
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 158
+    classID: 48
+    packedSize: 7548
+    offset: 2493328
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 159
+    classID: 48
+    packedSize: 1713392
+    offset: 2500880
+    sourceAssetGUID: 933532a4fcc9baf4fa0491de14d08ed7
+    buildTimeAssetPath: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+  - fileID: 160
+    classID: 48
+    packedSize: 20488
+    offset: 4214272
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 161
+    classID: 74
+    packedSize: 44872
+    offset: 4234760
+    sourceAssetGUID: df9f2b17a5a54704b98426037bc1f7f4
+    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf_Anim_Idle.fbx
+  - fileID: 162
+    classID: 74
+    packedSize: 39808
+    offset: 4279632
+    sourceAssetGUID: 47dea953cb6362144885db029d08af0a
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Death Warrior.fbx
+  - fileID: 163
+    classID: 74
+    packedSize: 21532
+    offset: 4319440
+    sourceAssetGUID: 6ab3c31e53c24484f9982a70000ef554
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Walking warrior.fbx
+  - fileID: 164
+    classID: 74
+    packedSize: 15752
+    offset: 4340976
+    sourceAssetGUID: 93335fad0d00caf43bbb63b6bbca33cf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Running Warrior.fbx
+  - fileID: 165
+    classID: 74
+    packedSize: 33444
+    offset: 4356728
+    sourceAssetGUID: b4a9aae92cdd7d44e8bc4d3fa596c4a5
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Jumping Warrior.fbx
+  - fileID: 166
+    classID: 74
+    packedSize: 19760
+    offset: 4390176
+    sourceAssetGUID: dd38944f10198d8448827b13b0e20cac
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Idle Warrior.fbx
+  - fileID: 167
+    classID: 74
+    packedSize: 55620
+    offset: 4409936
+    sourceAssetGUID: d49fdf48a4ef36245bb4ca198de6848e
+    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf_Anim_Happy.fbx
+  - fileID: 168
+    classID: 74
+    packedSize: 11004
+    offset: 4465560
+    sourceAssetGUID: 014d4aa244ba4df4a9e8b565e8a2414a
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveRGT.fbx
+  - fileID: 169
+    classID: 74
+    packedSize: 11004
+    offset: 4476568
+    sourceAssetGUID: 16a920137ec44d59a8ec1a39020fae9f
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveBWD.fbx
+  - fileID: 170
+    classID: 74
+    packedSize: 11088
+    offset: 4487576
+    sourceAssetGUID: 4060c39cb3fc47e3b9715535655f6d34
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Idle.fbx
+  - fileID: 171
+    classID: 74
+    packedSize: 8848
+    offset: 4498664
+    sourceAssetGUID: 5a0f0d11a93e46d196fb781da7eacca3
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_GetHit.fbx
+  - fileID: 172
+    classID: 74
+    packedSize: 11004
+    offset: 4507512
+    sourceAssetGUID: 79ba85de661a4af484e03b1978112749
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveFWD.fbx
+  - fileID: 173
+    classID: 74
+    packedSize: 10204
+    offset: 4518520
+    sourceAssetGUID: 7a0fe8419447441abd11dc236dc28a8e
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Attack.fbx
+  - fileID: 174
+    classID: 74
+    packedSize: 11004
+    offset: 4528728
+    sourceAssetGUID: 98e0d0c76c7e48889421b846b11e282a
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_MoveLFT.fbx
+  - fileID: 175
+    classID: 74
+    packedSize: 11004
+    offset: 4539736
+    sourceAssetGUID: e8acb046895a4e67b4e93a6f893e3041
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm08_Die.fbx
+  - fileID: 176
+    classID: 89
+    packedSize: 240
+    offset: 4550744
+    sourceAssetGUID: f418b3051ce9214449ba863b41448e15
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  - fileID: 177
+    classID: 90
+    packedSize: 111540
+    offset: 4550984
+    sourceAssetGUID: 1266eb92282cd0f48af8d586df2adc14
+    buildTimeAssetPath: Assets/Characters/Elf/Mesh/SK_Elf2.fbx
+  - fileID: 178
+    classID: 90
+    packedSize: 39152
+    offset: 4662528
+    sourceAssetGUID: 8819f55591c830440bf1cc5a399e7bbf
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Mesh/Warrior.fbx
+  - fileID: 179
+    classID: 90
+    packedSize: 3012
+    offset: 4701680
+    sourceAssetGUID: c9b76ad37caa4a3aaeecb9a10f8ae126
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Mesh/Character/Swarm08.fbx
+  - fileID: 180
+    classID: 91
+    packedSize: 804
+    offset: 4704696
+    sourceAssetGUID: d30ea73244eb1da40bcf27121e192696
+    buildTimeAssetPath: Assets/Characters/Elf/Animation/Elf.controller
+  - fileID: 181
+    classID: 91
+    packedSize: 4192
+    offset: 4705504
+    sourceAssetGUID: a43e1450746c61247ac709a2a93b2da0
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Animation/Swarm08/Swarm.controller
+  - fileID: 182
+    classID: 91
+    packedSize: 3104
+    offset: 4709696
+    sourceAssetGUID: 5f702a45e215c654dbfb3520231d35c9
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Animation/Warrior.controller
+  - fileID: 183
+    classID: 128
+    packedSize: 352462
+    offset: 4712800
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 184
+    classID: 258
+    packedSize: 40
+    offset: 5065264
+    sourceAssetGUID: 4c532aebe2988644b8c863af866818c4
+    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
+  - fileID: 185
+    classID: 850595691
+    packedSize: 52
+    offset: 5065304
+    sourceAssetGUID: e5edf748db136d54c94fec4e064947c9
+    buildTimeAssetPath: Assets/Scenes/SampleScene/New Lighting Settings 1.lighting
+  - fileID: 186
+    classID: 114
+    packedSize: 1156
+    offset: 5065360
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF - Fallback.asset
+  - fileID: 187
+    classID: 114
+    packedSize: 28764
+    offset: 5066520
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF.asset
+--- !u!1126 &8264221481264024508
+PackedAssets:
+  m_ShortPath: sharedassets0.assets.resS
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 0
+    sourceAssetGUID: 065b9c959e26bce47b4446687823d61f
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_albedo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 349552
+    offset: 87424
+    sourceAssetGUID: 07775286b12d6d149b685d660e52147d
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  - fileID: 0
+    classID: 28
+    packedSize: 158432
+    offset: 436976
+    sourceAssetGUID: 0f16a97fe2f07c54f92596201e4273ec
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_metallic.png
+  - fileID: 0
+    classID: 28
+    packedSize: 10528
+    offset: 595408
+    sourceAssetGUID: 16adfabf761583f4a9ad5823e0ea8c8e
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Weapon
+      market.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 65536
+    offset: 605936
+    sourceAssetGUID: 1c8031630249ff8448e393ba84a93c9f
+    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_ClothingM_BaseColor.jpg"
+  - fileID: 0
+    classID: 28
+    packedSize: 2784
+    offset: 671472
+    sourceAssetGUID: 2deb9a997d4c62c4d92210d0f0a9abdd
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png
+  - fileID: 0
+    classID: 28
+    packedSize: 349552
+    offset: 674256
+    sourceAssetGUID: 2f6a12d37c7ba4c43a5156d61ecf74fd
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+  - fileID: 0
+    classID: 28
+    packedSize: 5504
+    offset: 1023808
+    sourceAssetGUID: 2fc5fd69f2ef4c3aa4393a24c3fdd596
+    buildTimeAssetPath: Assets/Characters/Monster Minion Survivor/Texture/DefaultPBR/Albedo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 848
+    offset: 1029312
+    sourceAssetGUID: 3ccce67bd48bfcd459a2ef0393fdf83e
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Sparkle.png
+  - fileID: 0
+    classID: 28
+    packedSize: 10528
+    offset: 1030160
+    sourceAssetGUID: 48dd9a7736c11b5448a74711310e2ee6
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1040688
+    sourceAssetGUID: 4bbcfd991ffc8e04aae9f9723ec65ae4
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_normal.png
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1128112
+    sourceAssetGUID: 56cf0255172e0cc4591ce3126af761f1
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_metallic.png
+  - fileID: 0
+    classID: 28
+    packedSize: 10528
+    offset: 1215536
+    sourceAssetGUID: 626bf64cb9cd0a6458a86b6fadececa7
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Environment.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 848
+    offset: 1226064
+    sourceAssetGUID: 7cc0b541520b0734c80ea6934a192675
+    buildTimeAssetPath: Assets/VFX/PolygonParticles/Textures/PolygonParticles_Circle_01.png
+  - fileID: 0
+    classID: 28
+    packedSize: 349552
+    offset: 1226912
+    sourceAssetGUID: 84fd0a2f24b7b184995e7b6d8eecde17
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1576464
+    sourceAssetGUID: 9d40a8ece69e42042bebd2c0d28b7c34
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_alpha.png
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1663888
+    sourceAssetGUID: a9178e4d5631a714f896b8036b565361
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_normal.png
+  - fileID: 0
+    classID: 28
+    packedSize: 5408
+    offset: 1751312
+    sourceAssetGUID: b05e25f72fc74f5408cdc9c4f1db9384
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/LaternsEmission.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 65536
+    offset: 1756720
+    sourceAssetGUID: b3cf63f3fb542f2428b43be7498593ca
+    buildTimeAssetPath: "Assets/Characters/Elf/Textures/2\u041A/SM_Elf_Paint_BodyM_BaseColor.jpg"
+  - fileID: 0
+    classID: 28
+    packedSize: 20544
+    offset: 1822256
+    sourceAssetGUID: c08df9614ce228a45b4c99e0a8dff6ae
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Latens.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1842800
+    sourceAssetGUID: c52c7381dcf38a547b392a3ba8ec96e8
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_armor/Warrior_armor_normal.png
+  - fileID: 0
+    classID: 28
+    packedSize: 2784
+    offset: 1930224
+    sourceAssetGUID: ca5218861d869e442bcae7aca8629a7b
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 2784
+    offset: 1933008
+    sourceAssetGUID: d21b0d52ea5f1c84ba2e275be1619ee0
+    buildTimeAssetPath: Assets/Environment/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png
+  - fileID: 0
+    classID: 28
+    packedSize: 87424
+    offset: 1935792
+    sourceAssetGUID: d8cfadc3e19d2774cbbb3d9f0af4e4fa
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_clothes/Warrior_clothes_albedo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 21888
+    offset: 2023216
+    sourceAssetGUID: db806809cc4e06643af394f9dbb65c6e
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_hair/Warrior_hair_albedo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 5408
+    offset: 2045104
+    sourceAssetGUID: fbcaea10385462040a79c4950d5f65ed
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Textures/Bakery
+      market texture.tif
+  - fileID: 0
+    classID: 28
+    packedSize: 158432
+    offset: 2050512
+    sourceAssetGUID: fcb97a98ffba07e46b840b291efe118c
+    buildTimeAssetPath: Assets/Characters/Warrior/Art/Textures/Warrior_body/Warrior_body_albedo.png
+  - fileID: 0
+    classID: 28
+    packedSize: 1048576
+    offset: 2208944
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/Packages/Master FPS Counter/TextMesh Pro/Resources/Fonts
+      & Materials/LiberationSans SDF.asset
+  - fileID: 0
+    classID: 43
+    packedSize: 37120
+    offset: 3257520
+    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
+  - fileID: 0
+    classID: 43
+    packedSize: 5504
+    offset: 3294640
+    sourceAssetGUID: 820b6cbbd9088ec4e94caaba7cdefe1a
+    buildTimeAssetPath: Assets/Environment/Low-Poly Medieval Market/Models/Latern.fbx
+  - fileID: 0
+    classID: 89
+    packedSize: 32928
+    offset: 3300144
+    sourceAssetGUID: f418b3051ce9214449ba863b41448e15
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+--- !u!382020655 &9120157151377331878
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - Unity.VisualScripting.Antlr3.Runtime
+  - nunit.framework
+  m_EditorPlugins:
+  - Unity.Plastic.Newtonsoft.Json
+  - Unity.Plastic.Antlr3.Runtime
+  - Unity.VisualScripting.YamlDotNet
+  - Unity.Burst.Cecil.Mdb
+  - Unity.VisualScripting.TextureAssets
+  - zlib64Plastic
+  - Unity.VisualScripting.IonicZip
+  - liblz4Plastic
+  - JetBrains.Rider.PathLocator
+  - unityplastic
+  - Unity.Burst.Cecil.Pdb
+  - Unity.Burst.Cecil
+  - log4netPlastic
+  - Unity.Burst.Cecil.Rocks
+  - lz4x64Plastic
+  - Unity.VisualScripting.sqlite3
+  - ReportGeneratorMerged
+  - AppleEventIntegration
